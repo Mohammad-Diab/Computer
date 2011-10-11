@@ -265,6 +265,17 @@
         If Label47.Text = Computer.My.Resources.String213 Then Label36.Text = "100"
         If Label47.Text = Computer.My.Resources.String214 Then Label36.Text = "400"
         If Label47.Text = Computer.My.Resources.String215 Then Label36.Text = "1000"
+        If Label21.Text = "None" Then Label22.Text = "0.0"
+        If Label34.Text = "None" Then Label35.Text = "0.0"
+        If Label55.Text = "None" Then Label44.Text = "0.0"
+        If Label54.Text = "None" Then Label43.Text = "0.0"
+        If Label53.Text = "None" Then Label42.Text = "0.0"
+        If Label52.Text = "None" Then Label41.Text = "0.0"
+        If Label51.Text = "None" Then Label40.Text = "0.0"
+        If Label50.Text = "None" Then Label39.Text = "0.0"
+        If Label49.Text = "None" Then Label38.Text = "0.0"
+        If Label48.Text = "None" Then Label37.Text = "0.0"
+        If Label47.Text = "None" Then Label36.Text = "0.0"
         X = Val(Label10.Text) + Val(Label12.Text) + Val(Label14.Text) + Val(Label17.Text) + Val(Label19.Text) + Val(Label20.Text) + Val(Label22.Text) + Val(Label35.Text) + Val(Label44.Text) + Val(Label43.Text) + Val(Label42.Text) + Val(Label41.Text) + Val(Label40.Text) + Val(Label39.Text) + Val(Label38.Text) + Val(Label37.Text) + Val(Label36.Text)
         Label46.Text = X
     End Sub
