@@ -1,14 +1,4 @@
 ﻿Public Class Form1
-
-
-    Private Sub ABoutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ABoutToolStripMenuItem.Click
-        AboutBox1.Show()
-    End Sub
-
-    Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
-        Dialog1.ShowDialog()
-    End Sub
-
     Private Sub CheckBox9_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox9.CheckedChanged
         If CheckBox9.Checked Then ComboBox20.Enabled = True Else ComboBox20.Enabled = False
         If CheckBox9.Checked Then Button1.Enabled = False Else Button1.Enabled = True
@@ -67,8 +57,6 @@
     Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged
         If CheckBox1.Checked Then ComboBox12.Enabled = True Else ComboBox12.Enabled = False
     End Sub
-
- 
     Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged
         If RadioButton1.Checked Then
             ComboBox2.Enabled = False
@@ -180,7 +168,7 @@
         End If
     End Sub
 
-  
+
 
 
 
@@ -310,8 +298,7 @@
             ComboBox6.Items.Add(Computer.My.Resources.String126)
         End If
         If Model.Text = Computer.My.Resources.String019 Or
-            Model.Text = Computer.My.Resources.String023 Or
-            Prcessor.Text = Computer.My.Resources.String027 Then
+            Model.Text = Computer.My.Resources.String023 Then
             ComboBox6.Items.Add(Computer.My.Resources.String127)
             ComboBox6.Items.Add(Computer.My.Resources.String128)
             ComboBox6.Items.Add(Computer.My.Resources.String129)
@@ -367,8 +354,7 @@
             ComboBox6.Items.Add(Computer.My.Resources.String115)
         End If
         If Model.Text = Computer.My.Resources.String019 Or
-            Model.Text = Computer.My.Resources.String023 Or
-            Prcessor.Text = Computer.My.Resources.String027 Then
+            Model.Text = Computer.My.Resources.String023 Then
             ComboBox6.Items.Add(Computer.My.Resources.String116)
             ComboBox6.Items.Add(Computer.My.Resources.String117)
             ComboBox6.Items.Add(Computer.My.Resources.String118)
@@ -871,109 +857,219 @@
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 
         Form2.ShowDialog()
-            Button1.Enabled = False
-            RadioButton1.Checked = False
-            RadioButton2.Checked = False
-            RadioButton1.Enabled = True
-            RadioButton2.Enabled = True
-            ComboBox1.Enabled = True
-            ComboBox2.Enabled = False
-            ComboBox3.Enabled = False
-            ComboBox4.Enabled = False
-            ComboBox7.Enabled = False
-            ComboBox8.Enabled = False
-            ComboBox10.Enabled = False
-            ComboBox11.Enabled = False
-            ComboBox12.Enabled = False
-            ComboBox13.Enabled = False
-            ComboBox14.Enabled = False
-            ComboBox15.Enabled = False
-            ComboBox16.Enabled = False
-            ComboBox17.Enabled = False
-            ComboBox18.Enabled = False
-            ComboBox19.Enabled = False
-            ComboBox20.Enabled = False
-            ComboBox21.Enabled = False
-            ComboBox22.Enabled = False
-            ComboBox23.Enabled = False
-            RadioButton3.Enabled = False
-            RadioButton4.Enabled = False
-            RadioButton5.Enabled = False
-            RadioButton3.Checked = False
-            RadioButton4.Checked = False
-            RadioButton5.Checked = False
-            ComboBox6.Enabled = False
-            ComboBox1.Items.Clear()
-            ComboBox2.Items.Clear()
-            ComboBox3.Items.Clear()
-            ComboBox4.Items.Clear()
-            ComboBox6.Items.Clear()
-            ComboBox7.Items.Clear()
-            ComboBox8.Items.Clear()
-            ComboBox10.Items.Clear()
-            ComboBox11.Items.Clear()
-            ComboBox12.Items.Clear()
-            ComboBox13.Items.Clear()
-            ComboBox14.Items.Clear()
-            ComboBox15.Items.Clear()
-            ComboBox16.Items.Clear()
-            ComboBox17.Items.Clear()
-            ComboBox18.Items.Clear()
-            ComboBox19.Items.Clear()
-            ComboBox20.Items.Clear()
-            ComboBox21.Items.Clear()
-            ComboBox22.Items.Clear()
-            ComboBox23.Items.Clear()
-            CheckBox1.Enabled = False
-            CheckBox2.Enabled = False
-            CheckBox3.Enabled = False
-            CheckBox4.Enabled = False
-            CheckBox5.Enabled = False
-            CheckBox6.Enabled = False
-            CheckBox7.Enabled = False
-            CheckBox8.Enabled = False
-            CheckBox9.Enabled = False
-            CheckBox10.Enabled = False
-            CheckBox11.Enabled = False
-            CheckBox12.Enabled = False
-            CheckBox1.Checked = False
-            CheckBox2.Checked = False
-            CheckBox3.Checked = False
-            CheckBox4.Checked = False
-            CheckBox5.Checked = False
-            CheckBox6.Checked = False
-            CheckBox7.Checked = False
-            CheckBox8.Checked = False
-            CheckBox9.Checked = False
-            CheckBox10.Checked = False
-            CheckBox11.Checked = False
-            CheckBox12.Checked = False
-            Model.Text = "0"
-            Prcessor.Text = "0"
-            Board.Text = "0"
-            RamB.Text = "0"
-            RamC.Text = "0"
-            RamS.Text = "0"
-            HDC.Text = "0"
-            HDM.Text = "0"
-            Sata.Text = "0"
-            CPUC.Text = "0"
-            GPUC.Text = "0"
-            GPUM.Text = "0"
-            Cace.Text = "0"
-            Monitor.Text = "0"
-            Keyboard.Text = "0"
-            Mouse.Text = "0"
-            MousePad.Text = "0"
-            Sperakers.Text = "0"
-            Printer.Text = "0"
-            Camera.Text = "0"
-            Bluetooth.Text = "0"
-            Scanner.Text = "0"
-            OpticalDriver.Text = "0"
-            Cardreader.Text = "0"
-            PictureBox1.Image = Nothing
-            PictureBox2.Image = Nothing
+        Button1.Enabled = False
+        RadioButton1.Checked = False
+        RadioButton2.Checked = False
+        RadioButton1.Enabled = True
+        RadioButton2.Enabled = True
+        ComboBox1.Enabled = True
+        ComboBox2.Enabled = False
+        ComboBox3.Enabled = False
+        ComboBox4.Enabled = False
+        ComboBox7.Enabled = False
+        ComboBox8.Enabled = False
+        ComboBox10.Enabled = False
+        ComboBox11.Enabled = False
+        ComboBox12.Enabled = False
+        ComboBox13.Enabled = False
+        ComboBox14.Enabled = False
+        ComboBox15.Enabled = False
+        ComboBox16.Enabled = False
+        ComboBox17.Enabled = False
+        ComboBox18.Enabled = False
+        ComboBox19.Enabled = False
+        ComboBox20.Enabled = False
+        ComboBox21.Enabled = False
+        ComboBox22.Enabled = False
+        ComboBox23.Enabled = False
+        RadioButton3.Enabled = False
+        RadioButton4.Enabled = False
+        RadioButton5.Enabled = False
+        RadioButton3.Checked = False
+        RadioButton4.Checked = False
+        RadioButton5.Checked = False
+        ComboBox6.Enabled = False
+        ComboBox1.Items.Clear()
+        ComboBox2.Items.Clear()
+        ComboBox3.Items.Clear()
+        ComboBox4.Items.Clear()
+        ComboBox6.Items.Clear()
+        ComboBox7.Items.Clear()
+        ComboBox8.Items.Clear()
+        ComboBox10.Items.Clear()
+        ComboBox11.Items.Clear()
+        ComboBox12.Items.Clear()
+        ComboBox13.Items.Clear()
+        ComboBox14.Items.Clear()
+        ComboBox15.Items.Clear()
+        ComboBox16.Items.Clear()
+        ComboBox17.Items.Clear()
+        ComboBox18.Items.Clear()
+        ComboBox19.Items.Clear()
+        ComboBox20.Items.Clear()
+        ComboBox21.Items.Clear()
+        ComboBox22.Items.Clear()
+        ComboBox23.Items.Clear()
+        CheckBox1.Enabled = False
+        CheckBox2.Enabled = False
+        CheckBox3.Enabled = False
+        CheckBox4.Enabled = False
+        CheckBox5.Enabled = False
+        CheckBox6.Enabled = False
+        CheckBox7.Enabled = False
+        CheckBox8.Enabled = False
+        CheckBox9.Enabled = False
+        CheckBox10.Enabled = False
+        CheckBox11.Enabled = False
+        CheckBox12.Enabled = False
+        CheckBox1.Checked = False
+        CheckBox2.Checked = False
+        CheckBox3.Checked = False
+        CheckBox4.Checked = False
+        CheckBox5.Checked = False
+        CheckBox6.Checked = False
+        CheckBox7.Checked = False
+        CheckBox8.Checked = False
+        CheckBox9.Checked = False
+        CheckBox10.Checked = False
+        CheckBox11.Checked = False
+        CheckBox12.Checked = False
+        Model.Text = "0"
+        Prcessor.Text = "0"
+        Board.Text = "0"
+        RamB.Text = "0"
+        RamC.Text = "0"
+        RamS.Text = "0"
+        HDC.Text = "0"
+        HDM.Text = "0"
+        Sata.Text = "0"
+        CPUC.Text = "0"
+        GPUC.Text = "0"
+        GPUM.Text = "0"
+        Cace.Text = "0"
+        Monitor.Text = "0"
+        Keyboard.Text = "0"
+        Mouse.Text = "0"
+        MousePad.Text = "0"
+        Sperakers.Text = "0"
+        Printer.Text = "0"
+        Camera.Text = "0"
+        Bluetooth.Text = "0"
+        Scanner.Text = "0"
+        OpticalDriver.Text = "0"
+        Cardreader.Text = "0"
+        PictureBox1.Image = Nothing
+        PictureBox2.Image = Nothing
+    End Sub
+
+    Private Sub ToolStripButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton1.Click
+        RadioButton1.Checked = False
+        Button1.Enabled = False
+        RadioButton2.Checked = False
+        RadioButton1.Enabled = True
+        RadioButton2.Enabled = True
+        ComboBox1.Enabled = True
+        ComboBox2.Enabled = False
+        ComboBox3.Enabled = False
+        ComboBox4.Enabled = False
+        ComboBox7.Enabled = False
+        ComboBox8.Enabled = False
+        ComboBox10.Enabled = False
+        ComboBox11.Enabled = False
+        ComboBox12.Enabled = False
+        ComboBox13.Enabled = False
+        ComboBox14.Enabled = False
+        ComboBox15.Enabled = False
+        ComboBox16.Enabled = False
+        ComboBox17.Enabled = False
+        ComboBox18.Enabled = False
+        ComboBox19.Enabled = False
+        ComboBox20.Enabled = False
+        ComboBox21.Enabled = False
+        ComboBox22.Enabled = False
+        ComboBox23.Enabled = False
+        RadioButton3.Enabled = False
+        RadioButton4.Enabled = False
+        RadioButton5.Enabled = False
+        RadioButton3.Checked = False
+        RadioButton4.Checked = False
+        RadioButton5.Checked = False
+        ComboBox6.Enabled = False
+        ComboBox1.Items.Clear()
+        ComboBox2.Items.Clear()
+        ComboBox3.Items.Clear()
+        ComboBox4.Items.Clear()
+        ComboBox6.Items.Clear()
+        ComboBox7.Items.Clear()
+        ComboBox8.Items.Clear()
+        ComboBox10.Items.Clear()
+        ComboBox11.Items.Clear()
+        ComboBox12.Items.Clear()
+        ComboBox13.Items.Clear()
+        ComboBox14.Items.Clear()
+        ComboBox15.Items.Clear()
+        ComboBox16.Items.Clear()
+        ComboBox17.Items.Clear()
+        ComboBox18.Items.Clear()
+        ComboBox19.Items.Clear()
+        ComboBox20.Items.Clear()
+        ComboBox21.Items.Clear()
+        ComboBox22.Items.Clear()
+        ComboBox23.Items.Clear()
+        CheckBox1.Enabled = False
+        CheckBox2.Enabled = False
+        CheckBox3.Enabled = False
+        CheckBox4.Enabled = False
+        CheckBox5.Enabled = False
+        CheckBox6.Enabled = False
+        CheckBox7.Enabled = False
+        CheckBox8.Enabled = False
+        CheckBox9.Enabled = False
+        CheckBox10.Enabled = False
+        CheckBox11.Enabled = False
+        CheckBox12.Enabled = False
+        CheckBox1.Checked = False
+        CheckBox2.Checked = False
+        CheckBox3.Checked = False
+        CheckBox4.Checked = False
+        CheckBox5.Checked = False
+        CheckBox6.Checked = False
+        CheckBox7.Checked = False
+        CheckBox8.Checked = False
+        CheckBox9.Checked = False
+        CheckBox10.Checked = False
+        CheckBox11.Checked = False
+        CheckBox12.Checked = False
+        Model.Text = "0"
+        Prcessor.Text = "0"
+        Board.Text = "0"
+        RamB.Text = "0"
+        RamC.Text = "0"
+        RamS.Text = "0"
+        HDC.Text = "0"
+        HDM.Text = "0"
+        Sata.Text = "0"
+        CPUC.Text = "0"
+        GPUC.Text = "0"
+        GPUM.Text = "0"
+        Cace.Text = "0"
+        Monitor.Text = "0"
+        Keyboard.Text = "0"
+        Mouse.Text = "0"
+        MousePad.Text = "0"
+        Sperakers.Text = "0"
+        Printer.Text = "0"
+        Camera.Text = "0"
+        Bluetooth.Text = "0"
+        Scanner.Text = "0"
+        OpticalDriver.Text = "0"
+        Cardreader.Text = "0"
+        PictureBox1.Image = Nothing
+        PictureBox2.Image = Nothing
+    End Sub
+
+    Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
+        Dialog1.ShowDialog()
     End Sub
 
     Private Sub NewToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NewToolStripMenuItem.Click
@@ -1082,353 +1178,15 @@
         PictureBox2.Image = Nothing
     End Sub
 
-    Private Sub ExitToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem1.Click
-        Dialog1.ShowDialog()
-    End Sub
-
-    Private Sub AboutToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem1.Click
+    Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
         AboutBox1.ShowDialog()
     End Sub
 
-    Private Sub ToolStripButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton3.Click
-        RadioButton1.Checked = False
-        Button1.Enabled = False
-        RadioButton2.Checked = False
-        RadioButton1.Enabled = True
-        RadioButton2.Enabled = True
-        ComboBox1.Enabled = True
-        ComboBox2.Enabled = False
-        ComboBox3.Enabled = False
-        ComboBox4.Enabled = False
-        ComboBox7.Enabled = False
-        ComboBox8.Enabled = False
-        ComboBox10.Enabled = False
-        ComboBox11.Enabled = False
-        ComboBox12.Enabled = False
-        ComboBox13.Enabled = False
-        ComboBox14.Enabled = False
-        ComboBox15.Enabled = False
-        ComboBox16.Enabled = False
-        ComboBox17.Enabled = False
-        ComboBox18.Enabled = False
-        ComboBox19.Enabled = False
-        ComboBox20.Enabled = False
-        ComboBox21.Enabled = False
-        ComboBox22.Enabled = False
-        ComboBox23.Enabled = False
-        RadioButton3.Enabled = False
-        RadioButton4.Enabled = False
-        RadioButton5.Enabled = False
-        RadioButton3.Checked = False
-        RadioButton4.Checked = False
-        RadioButton5.Checked = False
-        ComboBox6.Enabled = False
-        ComboBox1.Items.Clear()
-        ComboBox2.Items.Clear()
-        ComboBox3.Items.Clear()
-        ComboBox4.Items.Clear()
-        ComboBox6.Items.Clear()
-        ComboBox7.Items.Clear()
-        ComboBox8.Items.Clear()
-        ComboBox10.Items.Clear()
-        ComboBox11.Items.Clear()
-        ComboBox12.Items.Clear()
-        ComboBox13.Items.Clear()
-        ComboBox14.Items.Clear()
-        ComboBox15.Items.Clear()
-        ComboBox16.Items.Clear()
-        ComboBox17.Items.Clear()
-        ComboBox18.Items.Clear()
-        ComboBox19.Items.Clear()
-        ComboBox20.Items.Clear()
-        ComboBox21.Items.Clear()
-        ComboBox22.Items.Clear()
-        ComboBox23.Items.Clear()
-        CheckBox1.Enabled = False
-        CheckBox2.Enabled = False
-        CheckBox3.Enabled = False
-        CheckBox4.Enabled = False
-        CheckBox5.Enabled = False
-        CheckBox6.Enabled = False
-        CheckBox7.Enabled = False
-        CheckBox8.Enabled = False
-        CheckBox9.Enabled = False
-        CheckBox10.Enabled = False
-        CheckBox11.Enabled = False
-        CheckBox12.Enabled = False
-        CheckBox1.Checked = False
-        CheckBox2.Checked = False
-        CheckBox3.Checked = False
-        CheckBox4.Checked = False
-        CheckBox5.Checked = False
-        CheckBox6.Checked = False
-        CheckBox7.Checked = False
-        CheckBox8.Checked = False
-        CheckBox9.Checked = False
-        CheckBox10.Checked = False
-        CheckBox11.Checked = False
-        CheckBox12.Checked = False
-        Model.Text = "0"
-        Prcessor.Text = "0"
-        Board.Text = "0"
-        RamB.Text = "0"
-        RamC.Text = "0"
-        RamS.Text = "0"
-        HDC.Text = "0"
-        HDM.Text = "0"
-        Sata.Text = "0"
-        CPUC.Text = "0"
-        GPUC.Text = "0"
-        GPUM.Text = "0"
-        Cace.Text = "0"
-        Monitor.Text = "0"
-        Keyboard.Text = "0"
-        Mouse.Text = "0"
-        MousePad.Text = "0"
-        Sperakers.Text = "0"
-        Printer.Text = "0"
-        Camera.Text = "0"
-        Bluetooth.Text = "0"
-        Scanner.Text = "0"
-        OpticalDriver.Text = "0"
-        Cardreader.Text = "0"
-        PictureBox1.Image = Nothing
-        PictureBox2.Image = Nothing
-    End Sub
-
-    Private Sub ToolStripButton4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton4.Click
+    Private Sub ToolStripButton2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton2.Click
         AboutBox1.ShowDialog()
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         LoginForm1.ShowDialog()
-    End Sub
-
-    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)
-
-    End Sub
-
-    Private Sub ToolStripButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton5.Click
-        Button1.Enabled = False
-        RadioButton1.Checked = False
-        RadioButton2.Checked = False
-        RadioButton1.Enabled = True
-        RadioButton2.Enabled = True
-        ComboBox1.Enabled = True
-        ComboBox2.Enabled = False
-        ComboBox3.Enabled = False
-        ComboBox4.Enabled = False
-        ComboBox7.Enabled = False
-        ComboBox8.Enabled = False
-        ComboBox10.Enabled = False
-        ComboBox11.Enabled = False
-        ComboBox12.Enabled = False
-        ComboBox13.Enabled = False
-        ComboBox14.Enabled = False
-        ComboBox15.Enabled = False
-        ComboBox16.Enabled = False
-        ComboBox17.Enabled = False
-        ComboBox18.Enabled = False
-        ComboBox19.Enabled = False
-        ComboBox20.Enabled = False
-        ComboBox21.Enabled = False
-        ComboBox22.Enabled = False
-        ComboBox23.Enabled = False
-        RadioButton3.Enabled = False
-        RadioButton4.Enabled = False
-        RadioButton5.Enabled = False
-        RadioButton3.Checked = False
-        RadioButton4.Checked = False
-        RadioButton5.Checked = False
-        ComboBox6.Enabled = False
-        ComboBox1.Items.Clear()
-        ComboBox2.Items.Clear()
-        ComboBox3.Items.Clear()
-        ComboBox4.Items.Clear()
-        ComboBox6.Items.Clear()
-        ComboBox7.Items.Clear()
-        ComboBox8.Items.Clear()
-        ComboBox10.Items.Clear()
-        ComboBox11.Items.Clear()
-        ComboBox12.Items.Clear()
-        ComboBox13.Items.Clear()
-        ComboBox14.Items.Clear()
-        ComboBox15.Items.Clear()
-        ComboBox16.Items.Clear()
-        ComboBox17.Items.Clear()
-        ComboBox18.Items.Clear()
-        ComboBox19.Items.Clear()
-        ComboBox20.Items.Clear()
-        ComboBox21.Items.Clear()
-        ComboBox22.Items.Clear()
-        ComboBox23.Items.Clear()
-        CheckBox1.Enabled = False
-        CheckBox2.Enabled = False
-        CheckBox3.Enabled = False
-        CheckBox4.Enabled = False
-        CheckBox5.Enabled = False
-        CheckBox6.Enabled = False
-        CheckBox7.Enabled = False
-        CheckBox8.Enabled = False
-        CheckBox9.Enabled = False
-        CheckBox10.Enabled = False
-        CheckBox11.Enabled = False
-        CheckBox12.Enabled = False
-        CheckBox1.Checked = False
-        CheckBox2.Checked = False
-        CheckBox3.Checked = False
-        CheckBox4.Checked = False
-        CheckBox5.Checked = False
-        CheckBox6.Checked = False
-        CheckBox7.Checked = False
-        CheckBox8.Checked = False
-        CheckBox9.Checked = False
-        CheckBox10.Checked = False
-        CheckBox11.Checked = False
-        CheckBox12.Checked = False
-        Model.Text = "0"
-        Prcessor.Text = "0"
-        Board.Text = "0"
-        RamB.Text = "0"
-        RamC.Text = "0"
-        RamS.Text = "0"
-        HDC.Text = "0"
-        HDM.Text = "0"
-        Sata.Text = "0"
-        CPUC.Text = "0"
-        GPUC.Text = "0"
-        GPUM.Text = "0"
-        Cace.Text = "0"
-        Monitor.Text = "0"
-        Keyboard.Text = "0"
-        Mouse.Text = "0"
-        MousePad.Text = "0"
-        Sperakers.Text = "0"
-        Printer.Text = "0"
-        Camera.Text = "0"
-        Bluetooth.Text = "0"
-        Scanner.Text = "0"
-        OpticalDriver.Text = "0"
-        Cardreader.Text = "0"
-        PictureBox1.Image = Nothing
-        PictureBox2.Image = Nothing
-    End Sub
-
-    Private Sub ToolStripButton6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButton6.Click
-        AboutBox1.ShowDialog()
-    End Sub
-
-    Private Sub NewToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NewToolStripMenuItem1.Click
-        Button1.Enabled = False
-        RadioButton1.Checked = False
-        RadioButton2.Checked = False
-        RadioButton1.Enabled = True
-        RadioButton2.Enabled = True
-        ComboBox1.Enabled = True
-        ComboBox2.Enabled = False
-        ComboBox3.Enabled = False
-        ComboBox4.Enabled = False
-        ComboBox7.Enabled = False
-        ComboBox8.Enabled = False
-        ComboBox10.Enabled = False
-        ComboBox11.Enabled = False
-        ComboBox12.Enabled = False
-        ComboBox13.Enabled = False
-        ComboBox14.Enabled = False
-        ComboBox15.Enabled = False
-        ComboBox16.Enabled = False
-        ComboBox17.Enabled = False
-        ComboBox18.Enabled = False
-        ComboBox19.Enabled = False
-        ComboBox20.Enabled = False
-        ComboBox21.Enabled = False
-        ComboBox22.Enabled = False
-        ComboBox23.Enabled = False
-        RadioButton3.Enabled = False
-        RadioButton4.Enabled = False
-        RadioButton5.Enabled = False
-        RadioButton3.Checked = False
-        RadioButton4.Checked = False
-        RadioButton5.Checked = False
-        ComboBox6.Enabled = False
-        ComboBox1.Items.Clear()
-        ComboBox2.Items.Clear()
-        ComboBox3.Items.Clear()
-        ComboBox4.Items.Clear()
-        ComboBox6.Items.Clear()
-        ComboBox7.Items.Clear()
-        ComboBox8.Items.Clear()
-        ComboBox10.Items.Clear()
-        ComboBox11.Items.Clear()
-        ComboBox12.Items.Clear()
-        ComboBox13.Items.Clear()
-        ComboBox14.Items.Clear()
-        ComboBox15.Items.Clear()
-        ComboBox16.Items.Clear()
-        ComboBox17.Items.Clear()
-        ComboBox18.Items.Clear()
-        ComboBox19.Items.Clear()
-        ComboBox20.Items.Clear()
-        ComboBox21.Items.Clear()
-        ComboBox22.Items.Clear()
-        ComboBox23.Items.Clear()
-        CheckBox1.Enabled = False
-        CheckBox2.Enabled = False
-        CheckBox3.Enabled = False
-        CheckBox4.Enabled = False
-        CheckBox5.Enabled = False
-        CheckBox6.Enabled = False
-        CheckBox7.Enabled = False
-        CheckBox8.Enabled = False
-        CheckBox9.Enabled = False
-        CheckBox10.Enabled = False
-        CheckBox11.Enabled = False
-        CheckBox12.Enabled = False
-        CheckBox1.Checked = False
-        CheckBox2.Checked = False
-        CheckBox3.Checked = False
-        CheckBox4.Checked = False
-        CheckBox5.Checked = False
-        CheckBox6.Checked = False
-        CheckBox7.Checked = False
-        CheckBox8.Checked = False
-        CheckBox9.Checked = False
-        CheckBox10.Checked = False
-        CheckBox11.Checked = False
-        CheckBox12.Checked = False
-        Model.Text = "0"
-        Prcessor.Text = "0"
-        Board.Text = "0"
-        RamB.Text = "0"
-        RamC.Text = "0"
-        RamS.Text = "0"
-        HDC.Text = "0"
-        HDM.Text = "0"
-        Sata.Text = "0"
-        CPUC.Text = "0"
-        GPUC.Text = "0"
-        GPUM.Text = "0"
-        Cace.Text = "0"
-        Monitor.Text = "0"
-        Keyboard.Text = "0"
-        Mouse.Text = "0"
-        MousePad.Text = "0"
-        Sperakers.Text = "0"
-        Printer.Text = "0"
-        Camera.Text = "0"
-        Bluetooth.Text = "0"
-        Scanner.Text = "0"
-        OpticalDriver.Text = "0"
-        Cardreader.Text = "0"
-        PictureBox1.Image = Nothing
-        PictureBox2.Image = Nothing
-    End Sub
-
-    Private Sub ExitToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem2.Click
-        Dialog1.ShowDialog()
-    End Sub
-
-    Private Sub AboutToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem2.Click
-        AboutBox1.ShowDialog()
     End Sub
 End Class

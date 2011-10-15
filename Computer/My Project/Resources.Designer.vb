@@ -60,6 +60,13 @@ Namespace My.Resources
             End Set
         End Property
         
+        Friend ReadOnly Property _new() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_new", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property ALERT() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("ALERT", resourceCulture)
@@ -109,9 +116,9 @@ Namespace My.Resources
             End Get
         End Property
         
-        Friend ReadOnly Property Lin() As System.Drawing.Bitmap
+        Friend ReadOnly Property lin() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Lin", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("lin", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -119,13 +126,6 @@ Namespace My.Resources
         Friend ReadOnly Property LOCK() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("LOCK", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        Friend ReadOnly Property ne() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ne", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
