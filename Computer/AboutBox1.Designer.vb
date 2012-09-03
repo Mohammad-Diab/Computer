@@ -63,7 +63,7 @@ Partial Class AboutBox1
         'PictureBox1
         '
         Me.PictureBox1.ErrorImage = Nothing
-        Me.PictureBox1.Image = Global.Computer.My.Resources.Resources.legend
+        Me.PictureBox1.Image = Global.Computer.My.Resources.Resources.Untitled__6_
         Me.PictureBox1.InitialImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
