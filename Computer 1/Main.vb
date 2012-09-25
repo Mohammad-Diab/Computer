@@ -1,5 +1,4 @@
-﻿Imports System.Windows.Forms
-Public Class Main
+﻿Public Class Main
     Dim Intel As Array = {Computer.My.Resources.String032, Computer.My.Resources.String026, Computer.My.Resources.String023, Computer.My.Resources.String019, Computer.My.Resources.String011, Computer.My.Resources.String001}
     Dim AMD As Array = {Computer.My.Resources.String058, Computer.My.Resources.String053, Computer.My.Resources.String044}
     Dim SecondCorei As Array = {Computer.My.Resources.String005, Computer.My.Resources.String004, Computer.My.Resources.String003, Computer.My.Resources.String002}
@@ -30,10 +29,10 @@ Public Class Main
     Dim BasicAMDGraphgic As Array = {Computer.My.Resources.String124, Computer.My.Resources.String125, Computer.My.Resources.String126}
     Dim BasicNvidiaGraphgic As Array = {Computer.My.Resources.String113, Computer.My.Resources.String114, Computer.My.Resources.String115}
     Dim BasicCase As Array = {Computer.My.Resources.String145, Computer.My.Resources.String144, Computer.My.Resources.String143, Computer.My.Resources.String142}
-    Dim ProfissionalCase As Array = {Computer.My.Resources.String143, Computer.My.Resources.String142, Computer.My.Resources.String141, Computer.My.Resources.String140, Computer.My.Resources.String139, Computer.My.Resources.String138, Computer.My.Resources.String137, Computer.My.Resources.String136, Computer.My.Resources.String135}
+    Dim ProfissionalCase As Array = {Computer.My.Resources.String142, Computer.My.Resources.String141, Computer.My.Resources.String140, Computer.My.Resources.String139, Computer.My.Resources.String138, Computer.My.Resources.String137, Computer.My.Resources.String136, Computer.My.Resources.String135}
     Dim Monitor As Array = {"None", Computer.My.Resources.String147, Computer.My.Resources.String148, Computer.My.Resources.String149, Computer.My.Resources.String150, Computer.My.Resources.String151, Computer.My.Resources.String152, Computer.My.Resources.String153, Computer.My.Resources.String154, Computer.My.Resources.String155, Computer.My.Resources.String156, Computer.My.Resources.String157, Computer.My.Resources.String158}
-    Dim Mouse As Array = {"None", Computer.My.Resources.String168, Computer.My.Resources.String167, Computer.My.Resources.String166, Computer.My.Resources.String165, Computer.My.Resources.String164, Computer.My.Resources.String163, Computer.My.Resources.String162, Computer.My.Resources.String161, Computer.My.Resources.String160}
-    Dim Keyboard As Array = {"None", Computer.My.Resources.String176, Computer.My.Resources.String175, Computer.My.Resources.String174, Computer.My.Resources.String173, Computer.My.Resources.String172, Computer.My.Resources.String171, Computer.My.Resources.String170}
+    Dim Keyboard As Array = {"None", Computer.My.Resources.String168, Computer.My.Resources.String167, Computer.My.Resources.String166, Computer.My.Resources.String165, Computer.My.Resources.String164, Computer.My.Resources.String163, Computer.My.Resources.String162, Computer.My.Resources.String161, Computer.My.Resources.String160}
+    Dim Mouse As Array = {"None", Computer.My.Resources.String176, Computer.My.Resources.String175, Computer.My.Resources.String174, Computer.My.Resources.String173, Computer.My.Resources.String172, Computer.My.Resources.String171, Computer.My.Resources.String170}
     Dim MousePad As Array = {"None", Computer.My.Resources.String178, Computer.My.Resources.String179, Computer.My.Resources.String180}
     Dim Speaker As Array = {"None", Computer.My.Resources.String186, Computer.My.Resources.String182, Computer.My.Resources.String188, Computer.My.Resources.String187, Computer.My.Resources.String183, Computer.My.Resources.String184, Computer.My.Resources.String185}
     Dim Printer As Array = {"None", Computer.My.Resources.String190, Computer.My.Resources.String191, Computer.My.Resources.String192, Computer.My.Resources.String193, Computer.My.Resources.String194, Computer.My.Resources.String195}
@@ -148,7 +147,7 @@ Public Class Main
     End Sub
 
     Private Sub ComboBox1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles ComboBox1.Click
-        If RadioButton1.Checked = False And RadioButton2.Checked = False Then MsgBox("لم تقم باختيار الشركة! قم بختيار اسم الشركة ثم اختر الموديل", MsgBoxStyle.Information)
+        If RadioButton1.Checked = False And RadioButton2.Checked = False Then MsgBox("لم تقم باختيار الشركة! قم باختيار اسم الشركة ثم اختر الموديل", MsgBoxStyle.Information)
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -376,7 +375,7 @@ Public Class Main
     End Sub
 
     Sub FillCase()
-        If PC(3) = Computer.My.Resources.String042 OrElse PC(2) = Computer.My.Resources.String014 OrElse PC(2) = Computer.My.Resources.String045 OrElse PC(2) = Computer.My.Resources.String046 OrElse PC(2) = Computer.My.Resources.String047 OrElse PC(3) = Computer.My.Resources.String060 OrElse PC(3) = Computer.My.Resources.String061 Then
+        If PC(3) = Computer.My.Resources.String042 OrElse PC(2) = Computer.My.Resources.String045 OrElse PC(2) = Computer.My.Resources.String046 OrElse PC(2) = Computer.My.Resources.String047 OrElse PC(3) = Computer.My.Resources.String060 OrElse PC(3) = Computer.My.Resources.String061 OrElse PC(1) = Computer.My.Resources.String001 OrElse PC(1) = Computer.My.Resources.String011 OrElse PC(2) = Computer.My.Resources.String020 OrElse PC(2) = Computer.My.Resources.String048 OrElse PC(2) = Computer.My.Resources.String049 OrElse PC(2) = Computer.My.Resources.String050 OrElse PC(3) = Computer.My.Resources.String062 OrElse PC(3) = Computer.My.Resources.String063 OrElse PC(3) = Computer.My.Resources.String064 OrElse PC(3) = Computer.My.Resources.String065 OrElse PC(11) = Computer.My.Resources.String117 OrElse PC(11) = Computer.My.Resources.String118 OrElse PC(11) = Computer.My.Resources.String119 OrElse PC(11) = Computer.My.Resources.String120 OrElse PC(11) = Computer.My.Resources.String121 OrElse PC(11) = Computer.My.Resources.String122 OrElse PC(11) = Computer.My.Resources.String129 OrElse PC(11) = Computer.My.Resources.String130 OrElse PC(11) = Computer.My.Resources.String131 OrElse PC(11) = Computer.My.Resources.String132 OrElse PC(11) = Computer.My.Resources.String133 Then
             ComboBox12.Items.AddRange(ProfissionalCase)
         Else
             ComboBox12.Items.AddRange(BasicCase)
@@ -400,7 +399,7 @@ Public Class Main
         ComboBox6.Enabled = True
         ComboBox6.Items.Clear()
         ComboBox12.Enabled = False
-        If PC(1) = Computer.My.Resources.String032 OrElse PC(1) = Computer.My.Resources.String058 Then
+        If PC(1) = Computer.My.Resources.String032 OrElse PC(1) = Computer.My.Resources.String058 OrElse PC(2) = Computer.My.Resources.String030 OrElse PC(2) = Computer.My.Resources.String031 Then
             ComboBox6.Items.AddRange(BasicAMDGraphgic)
         ElseIf PC(2) = Computer.My.Resources.String005 OrElse PC(2) = Computer.My.Resources.String014 OrElse PC(2) = Computer.My.Resources.String045 OrElse PC(2) = Computer.My.Resources.String046 OrElse PC(2) = Computer.My.Resources.String047 Then
             ComboBox6.Items.AddRange(SuperAMDGraphgic)
@@ -416,7 +415,7 @@ Public Class Main
         ComboBox6.Enabled = True
         ComboBox6.Items.Clear()
         ComboBox12.Enabled = False
-        If PC(1) = Computer.My.Resources.String032 OrElse PC(1) = Computer.My.Resources.String058 Then
+        If PC(1) = Computer.My.Resources.String032 OrElse PC(1) = Computer.My.Resources.String058 OrElse PC(2) = Computer.My.Resources.String030 OrElse PC(2) = Computer.My.Resources.String031 Then
             ComboBox6.Items.AddRange(BasicNvidiaGraphgic)
         ElseIf PC(2) = Computer.My.Resources.String005 OrElse PC(2) = Computer.My.Resources.String014 OrElse PC(2) = Computer.My.Resources.String045 OrElse PC(2) = Computer.My.Resources.String046 OrElse PC(2) = Computer.My.Resources.String047 Then
             ComboBox6.Items.AddRange(SuperNvidiaGraphgic)

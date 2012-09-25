@@ -1782,7 +1782,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Mouse Pad+(Calc,CR,3USB Port).
+        '''  Looks up a localized string similar to Mouse Pad+(Calc,3*USB).
         '''</summary>
         Friend ReadOnly Property String180() As String
             Get

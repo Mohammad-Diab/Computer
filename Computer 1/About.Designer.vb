@@ -72,7 +72,7 @@ Partial Class About
         Me.PictureBox1.ErrorImage = Nothing
         Me.PictureBox1.Image = Global.Computer.My.Resources.Resources.Legend
         Me.PictureBox1.InitialImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(14, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(8, 8)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(227, 216)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom

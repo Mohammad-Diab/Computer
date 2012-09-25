@@ -67,11 +67,11 @@ Partial Class Confirm
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Computer.My.Resources.Resources.Aleart
-        Me.PictureBox1.Location = New System.Drawing.Point(21, 10)
+        Me.PictureBox1.Location = New System.Drawing.Point(38, 13)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(80, 75)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.Size = New System.Drawing.Size(64, 64)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 16
         Me.PictureBox1.TabStop = False
         '

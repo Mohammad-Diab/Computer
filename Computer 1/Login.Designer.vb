@@ -36,6 +36,7 @@ Partial Class Login
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -44,14 +45,14 @@ Partial Class Login
         '
         Me.TextBox1.BackColor = System.Drawing.SystemColors.Control
         Me.TextBox1.Font = New System.Drawing.Font("Segoe Print", 9.75!)
-        Me.TextBox1.Location = New System.Drawing.Point(160, 33)
+        Me.TextBox1.Location = New System.Drawing.Point(193, 33)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TextBox1.Size = New System.Drawing.Size(170, 30)
+        Me.TextBox1.Size = New System.Drawing.Size(109, 30)
         Me.TextBox1.TabIndex = 28
-        Me.TextBox1.Text = "The Legend Mohammad"
+        Me.TextBox1.Text = "Dr.Mohammad"
         '
         'Label1
         '
@@ -73,7 +74,7 @@ Partial Class Login
         Me.Cancel.Name = "Cancel"
         Me.Cancel.Size = New System.Drawing.Size(67, 44)
         Me.Cancel.TabIndex = 26
-        Me.Cancel.Text = "ا&خرج"
+        Me.Cancel.Text = "اخرج"
         '
         'OK
         '
@@ -83,7 +84,7 @@ Partial Class Login
         Me.OK.Name = "OK"
         Me.OK.Size = New System.Drawing.Size(67, 44)
         Me.OK.TabIndex = 25
-        Me.OK.Text = "ا&دخل"
+        Me.OK.Text = "ادخل"
         '
         'PasswordTextBox
         '
@@ -114,7 +115,7 @@ Partial Class Login
         Me.PasswordLabel.Name = "PasswordLabel"
         Me.PasswordLabel.Size = New System.Drawing.Size(88, 35)
         Me.PasswordLabel.TabIndex = 23
-        Me.PasswordLabel.Text = "&كلمة السر:"
+        Me.PasswordLabel.Text = "كلمة السر:"
         Me.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'UsernameLabel
@@ -125,7 +126,7 @@ Partial Class Login
         Me.UsernameLabel.Name = "UsernameLabel"
         Me.UsernameLabel.Size = New System.Drawing.Size(88, 35)
         Me.UsernameLabel.TabIndex = 20
-        Me.UsernameLabel.Text = "&اسم المستخدم:"
+        Me.UsernameLabel.Text = "اسم المستخدم:"
         Me.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'MenuStrip1
@@ -158,7 +159,7 @@ Partial Class Login
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("KacstOne", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(178, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(10, 167)
+        Me.Label2.Location = New System.Drawing.Point(15, 160)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(249, 37)
@@ -176,6 +177,18 @@ Partial Class Login
         Me.LogoPictureBox.TabIndex = 21
         Me.LogoPictureBox.TabStop = False
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("KacstOne", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(178, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Gray
+        Me.Label3.Location = New System.Drawing.Point(2, 194)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(277, 21)
+        Me.Label3.TabIndex = 31
+        Me.Label3.Text = "انتبه إن كلا من اسم المستخدم وكلمة المرور حساس لحالة الأحرف"
+        '
         'Login
         '
         Me.AcceptButton = Me.OK
@@ -184,6 +197,7 @@ Partial Class Login
         Me.CancelButton = Me.Cancel
         Me.ClientSize = New System.Drawing.Size(432, 219)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Cancel)
@@ -226,4 +240,5 @@ Partial Class Login
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 End Class
