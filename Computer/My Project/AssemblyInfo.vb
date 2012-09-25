@@ -1,6 +1,4 @@
-﻿Imports System.Resources
-
-Imports System
+﻿Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -10,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("تقوم باختيار مواصفات حاسبك ويقوم بعرض سعره")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Legend")> 
+<Assembly: AssemblyTitle("Computer")> 
+<Assembly: AssemblyDescription("Choose Your PC Specification")> 
+<Assembly: AssemblyCompany("The Legend")> 
 <Assembly: AssemblyProduct("Computer")> 
-<Assembly: AssemblyCopyright("Copyright ©  2013")> 
+<Assembly: AssemblyCopyright("Copyright © 2011 The Legend Corporation")> 
 <Assembly: AssemblyTrademark("")> 
 
-<Assembly: ComVisible(False)> 
+<Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("cce6de06-c111-4037-8ae3-7c3aed5f2f6f")> 
+<Assembly: Guid("b064343c-578d-44eb-9fa7-5acb59c24d46")> 
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -33,7 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.5.0.0")> 
-<Assembly: AssemblyFileVersion("1.5.0.0")> 
-
-<Assembly: NeutralResourcesLanguageAttribute("ar")> 
+<Assembly: AssemblyVersion("1.1.0.2")> 
+<Assembly: AssemblyFileVersion("1.1.0.2")> 
