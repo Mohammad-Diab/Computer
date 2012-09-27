@@ -1,0 +1,97 @@
+﻿<Window x:Class="Window2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="سعر الحاسوب" Height="600" Width="400" ResizeMode="NoResize" FlowDirection="RightToLeft" WindowStartupLocation="CenterScreen">
+    <Grid Height="560" Name="Grid1" Width="400">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*" />
+            <ColumnDefinition Width="362*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Height="561" HorizontalAlignment="Center" Name="Rectangle1" RadiusX="0" RadiusY="0" Stroke="#00000000" StrokeThickness="1" VerticalAlignment="Top" Width="380" Grid.ColumnSpan="2" Margin="0,0,20,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="#A0FFFAFA" Offset="1" />
+                    <GradientStop Color="#B8C3DDF5" Offset="0" />
+                    <GradientStop Color="#86F0FFFF" Offset="0.231" />
+                    <GradientStop Color="#E5FFFFFF" Offset="0.754" />
+                    <GradientStop Color="#6FF0F8FF" Offset="0.456" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="المعالج" Height="28" HorizontalAlignment="Left" Margin="2,10,0,0" Name="Label1" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,41,0,0" Name="Separator1" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Label Content="اللوحة الأم" Height="28" HorizontalAlignment="Left" Margin="1,44,0,0" Name="Label2" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="الذاكرة العشوائية" Height="28" HorizontalAlignment="Left" Margin="0,73,0,0" Name="Label3" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="القرص الصلب" Height="28" HorizontalAlignment="Left" Margin="1,102,0,0" Name="Label4" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="بطاقة الاظهار" Height="28" HorizontalAlignment="Left" Margin="1,131,0,0" Name="Label5" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="العلبة الخارجية" Height="28" HorizontalAlignment="Left" Margin="1,160,0,0" Name="Label6" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="الشاشة" HorizontalAlignment="Left" Margin="1,190,0,0" Name="Label7" Height="28" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="السواقة الليزرية" Height="28" HorizontalAlignment="Left" Margin="1,219,0,0" Name="Label8" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="ملحقات:" Height="28" HorizontalAlignment="Left" Margin="1,249,0,0" Name="Label9" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="لوحة المفاتيح" Height="28" HorizontalAlignment="Left" Margin="26,270,0,0" Name="Label10" VerticalAlignment="Top" FontSize="11" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="الفأرة" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="25,299,0,0" Name="Label11" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="وسادة الفأرة" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="26,327,0,0" Name="Label12" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="مكبرات الصوت" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="25,356,0,0" Name="Label13" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="الطابعة" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="25,384,0,0" Name="Label14" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="كاميرا الويب" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="25,412,0,0" Name="Label15" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="بلوتوث" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="26,441,0,0" Name="Label16" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="الماسحة الضوئية" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="25,468,0,0" Name="Label17" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" />
+        <Label Content="قارئة الذواكر" FontSize="11" Height="28" HorizontalAlignment="Left" Margin="25,495,0,0" Name="Label18" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="Auto" FontWeight="Bold" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,296,0,0" Name="Separator3" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="4,267,0,0" Name="Separator4" VerticalAlignment="Top" Width="50" Grid.ColumnSpan="2" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,245,0,0" Name="Separator5" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,216,0,0" Name="Separator6" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,186,0,0" Name="Separator7" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,157,0,0" Name="Separator8" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,128,0,0" Name="Separator9" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,99,0,0" Name="Separator10" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="13,70,0,0" Name="Separator11" VerticalAlignment="Top" Width="350" Grid.ColumnSpan="2" />
+        <Separator Grid.ColumnSpan="2" Height="5" HorizontalAlignment="Left" Margin="0,520,0,0" Name="Separator2" VerticalAlignment="Top" Width="400" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,493,0,0" Name="Separator12" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,466,0,0" Name="Separator13" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,438,0,0" Name="Separator14" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,409,0,0" Name="Separator15" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,381,0,0" Name="Separator16" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,353,0,0" Name="Separator17" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Separator Height="5" HorizontalAlignment="Left" Margin="7,324,0,0" Name="Separator18" VerticalAlignment="Top" Width="325" Grid.Column="1" />
+        <Label Height="33" HorizontalAlignment="Left" Margin="72,525,0,0" Name="Label19" VerticalAlignment="Top" Content="المجموع :" FontSize="14" FontWeight="Bold" Grid.Column="1" />
+        <Label Content="ل.س" Grid.Column="1" Height="34" HorizontalAlignment="Left" Margin="236,525,0,0" Name="Label20" VerticalAlignment="Top" Foreground="Blue" FontSize="14" FontWeight="Bold" />
+        <Label Content="0.0" Grid.Column="1" Height="33" HorizontalAlignment="Left" Margin="143,526,0,0" Name="Label21" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Width="87" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" Height="33" HorizontalAlignment="Left" Margin="303,13,0,0" Name="Label22" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" Height="33" HorizontalAlignment="Left" Margin="304,48,0,0" Name="Label23" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" Height="33" HorizontalAlignment="Left" Margin="303,77,0,0" Name="Label24" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="303,106,0,0" Name="Label25" Grid.Column="1" Height="33" VerticalAlignment="Top" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" Height="33" HorizontalAlignment="Left" Margin="303,135,0,0" Name="Label26" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="304,165,0,0" Name="Label27" Grid.Column="1" Height="33" VerticalAlignment="Top" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" Height="33" HorizontalAlignment="Left" Margin="304,195,0,0" Name="Label28" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="0.0" FontSize="12" FontWeight="Bold" Height="33" HorizontalAlignment="Left" Margin="304,223,0,0" Name="Label29" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="303,272,0,0" Name="Label30" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="303,301,0,0" Name="Label31" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="304,329,0,0" Name="Label32" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="304,470,0,0" Name="Label33" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="304,440,0,0" Name="Label34" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="303,414,0,0" Name="Label35" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="303,386,0,0" Name="Label36" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="303,360,0,0" Name="Label37" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label Content="0.0" FontSize="11" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="304,499,0,0" Name="Label38" VerticalAlignment="Top" Grid.Column="1" FontFamily="Segoe UI" />
+        <Label FontSize="12" FontWeight="Normal" HorizontalAlignment="Left" Margin="72,0,0,0" Name="Label39" Grid.Column="1" Content="C" Height="23" VerticalAlignment="Top" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,23,0,0" Name="Label40" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,46,0,0" Name="Label41" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,75,0,0" Name="Label42" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,104,0,0" Name="Label43" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,133,0,0" Name="Label44" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,163,0,0" Name="Label45" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,222,0,0" Name="Label47" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,271,0,0" Name="Label48" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,302,0,0" Name="Label49" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,329,0,0" Name="Label50" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,359,0,0" Name="Label51" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,386,0,0" Name="Label52" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,415,0,0" Name="Label53" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,443,0,0" Name="Label54" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,470,0,0" Name="Label55" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="C" FontSize="11" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="80,498,0,0" Name="Label56" VerticalAlignment="Top" Grid.Column="1" />
+        <Button Content="عودة" Grid.Column="1" Height="26" HorizontalAlignment="Left" Margin="287,527,0,0" Name="Button1" VerticalAlignment="Top" Width="51" />
+        <Label Content="C" FontSize="12" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="72,192,0,0" Name="Label46" VerticalAlignment="Top" Grid.Column="1" />
+    </Grid>
+</Window>

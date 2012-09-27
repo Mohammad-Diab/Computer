@@ -11,11 +11,11 @@ Imports System.Windows
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Computer")> 
+<Assembly: AssemblyTitle("تقوم باختيار مواصفات حاسبك ويقوم بعرض سعره")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyCompany("Legend")> 
 <Assembly: AssemblyProduct("Computer")> 
-<Assembly: AssemblyCopyright("Copyright @  2012")> 
+<Assembly: AssemblyCopyright("Copyright ©  2013")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: ComVisible(false)>
 
@@ -42,7 +42,7 @@ Imports System.Windows
 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("16b70b56-ac5a-4a25-bae0-87d7b61f5bb9")> 
+<Assembly: Guid("d86340cc-e906-40a0-8dc8-158cac0218b6")> 
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -55,5 +55,7 @@ Imports System.Windows
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("1.6.0.0")> 
+<Assembly: AssemblyFileVersion("1.6.0.0")> 
+
+<Assembly: NeutralResourcesLanguageAttribute("ar")> 
