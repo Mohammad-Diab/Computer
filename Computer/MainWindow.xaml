@@ -117,8 +117,6 @@
         <Label Content="اختر مواصفات الحاسوب" Height="45" HorizontalAlignment="Left" Margin="582,248,0,0" Name="Label22" VerticalAlignment="Top" Width="227" Foreground="Blue" FontSize="22" FontWeight="Bold" />
         <Label Content="ثم اضغط على عرض السعر" Height="47" HorizontalAlignment="Left" Margin="566,287,0,0" Name="Label23" VerticalAlignment="Top" Width="259" Foreground="Blue" FontSize="22" FontWeight="Bold" />
         <Button Content="عرض السعر" Height="53" HorizontalAlignment="Left" Margin="611,343,0,0" Name="Button1" VerticalAlignment="Top" Width="167" FontSize="20" FontWeight="Bold" IsEnabled="False" TabIndex="27" Background="White" />
-        <Rectangle Fill="Black" Height="480" HorizontalAlignment="Left" Margin="0" Name="Rectangle1" Stroke="Black" VerticalAlignment="Top" Width="850" />
-        <MediaElement FlowDirection="LeftToRight" IsHitTestVisible="True" IsMuted="True" LoadedBehavior="Manual" Margin="0" Name="MediaElement1" OpacityMask="#FA000000" Source="legend.avi" Stretch="Fill" UnloadedBehavior="Manual" Visibility="Hidden" />
     </Grid>
     <Window.Background>
         <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">

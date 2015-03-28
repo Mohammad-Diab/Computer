@@ -221,15 +221,6 @@ Class MainWindow
         Next
     End Sub
 
-    Private Sub Window_Loaded(ByVal sender As System.Object, ByVal e As System.Windows.RoutedEventArgs) Handles MyBase.Loaded
-        MediaElement1.Visibility = Windows.Visibility.Visible
-        Me.MediaElement1.Play()
-    End Sub
-
-    Private Sub MediaElement1_MediaEnded(ByVal sender As Object, ByVal e As System.Windows.RoutedEventArgs) Handles MediaElement1.MediaEnded
-        MediaElement1.Visibility = Windows.Visibility.Hidden
-        Rectangle1.Visibility = Windows.Visibility.Hidden
-    End Sub
 
     Private Sub RadioButton1_Checked(ByVal sender As System.Object, ByVal e As System.Windows.RoutedEventArgs) Handles RadioButton1.Checked
         Hide5()
