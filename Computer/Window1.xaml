@@ -6,7 +6,7 @@
         <Image Height="264" HorizontalAlignment="Left" Margin="4,12,0,0" Name="Image1" Stretch="None" VerticalAlignment="Top" Width="285" Source="/Computer;component/Images/Mohammad_Logo.jpg" />
         <Label Content="Computer 1" Height="46" HorizontalAlignment="Right" Margin="0,36,103,0" Name="Label1" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Foreground="#FF009B00" />
         <Label Content="الاصدار 1.6" Height="36" HorizontalAlignment="Right" Margin="0,75,112,0" Name="Label2" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="#FFEA0000" />
-        <Label Content="Dr.Mohammad@outlook.com" Height="33" HorizontalAlignment="Right" Margin="0,180,45,0" Name="Label3" VerticalAlignment="Top" FlowDirection="LeftToRight" Foreground="#FFFF00E8" FontSize="16" FontWeight="Bold" Background="{x:Null}" />
+        <Label Content="mohammad.diab93@outlook.com" Height="33" HorizontalAlignment="Right" Margin="0,180,45,0" Name="Label3" VerticalAlignment="Top" FlowDirection="LeftToRight" Foreground="#FFFF00E8" FontSize="16" FontWeight="Bold" Background="{x:Null}" />
         <Label Content="جميع الحقوق محفوظة" Height="31" HorizontalAlignment="Right" Margin="0,143,91,0" Name="Label4" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="#830003FF" />
         <Button Content="موافق" Height="32" HorizontalAlignment="Left" Margin="473,246,0,0" Name="Button1" VerticalAlignment="Top" Width="106" />
         <Label Content="© 2013 The Legend Mohammad." Height="33" HorizontalAlignment="Right" Margin="0,110,45,0" x:Name="Label3_Copy" VerticalAlignment="Top" FlowDirection="LeftToRight" Foreground="Blue" FontSize="16" FontWeight="Bold" />
