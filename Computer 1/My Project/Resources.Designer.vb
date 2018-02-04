@@ -26,7 +26,7 @@ Namespace My.Resources
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
-    Public Module Resources
+    Friend Module Resources
         
         Private resourceMan As Global.System.Resources.ResourceManager
         
@@ -36,10 +36,10 @@ Namespace My.Resources
         '''  Returns the cached ResourceManager instance used by this class.
         '''</summary>
         <Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Public ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
+        Friend ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("Computer.Resources", GetType(Resources).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("Computer_1.Resources", GetType(Resources).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -51,7 +51,7 @@ Namespace My.Resources
         '''  resource lookups using this strongly typed resource class.
         '''</summary>
         <Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
-        Public Property Culture() As Global.System.Globalization.CultureInfo
+        Friend Property Culture() As Global.System.Globalization.CultureInfo
             Get
                 Return resourceCulture
             End Get
@@ -60,35 +60,110 @@ Namespace My.Resources
             End Set
         End Property
         
-        Public ReadOnly Property Amd() As System.Drawing.Bitmap
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _new() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_new", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ALERT() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ALERT", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Amd() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Amd", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
-        Public ReadOnly Property AMDR() As System.Drawing.Bitmap
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property AMDR() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("AMDR", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
-        Public ReadOnly Property GMA() As System.Drawing.Bitmap
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property GMA() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("GMA", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
-        Public ReadOnly Property Intel() As System.Drawing.Bitmap
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property info() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("info", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Intel() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Intel", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
-        Public ReadOnly Property Nvidia() As System.Drawing.Bitmap
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Legend() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Legend", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property lin() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("lin", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property LOCK() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LOCK", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Nvidia() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Nvidia", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
@@ -96,9 +171,19 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property Project1() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Project1", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to 2nd Generation Core .
         '''</summary>
-        Public ReadOnly Property String001() As String
+        Friend ReadOnly Property String001() As String
             Get
                 Return ResourceManager.GetString("String001", resourceCulture)
             End Get
@@ -107,7 +192,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to i3 2100 3.10GHz 3MB.
         '''</summary>
-        Public ReadOnly Property String002() As String
+        Friend ReadOnly Property String002() As String
             Get
                 Return ResourceManager.GetString("String002", resourceCulture)
             End Get
@@ -116,7 +201,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to i5 2400 3.10Ghz 6MB.
         '''</summary>
-        Public ReadOnly Property String003() As String
+        Friend ReadOnly Property String003() As String
             Get
                 Return ResourceManager.GetString("String003", resourceCulture)
             End Get
@@ -125,7 +210,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to i5 2500k 3.30GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String004() As String
+        Friend ReadOnly Property String004() As String
             Get
                 Return ResourceManager.GetString("String004", resourceCulture)
             End Get
@@ -134,7 +219,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to i7 2600 3.40GHz 8MB.
         '''</summary>
-        Public ReadOnly Property String005() As String
+        Friend ReadOnly Property String005() As String
             Get
                 Return ResourceManager.GetString("String005", resourceCulture)
             End Get
@@ -143,7 +228,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus P8P67 LE.
         '''</summary>
-        Public ReadOnly Property String006() As String
+        Friend ReadOnly Property String006() As String
             Get
                 Return ResourceManager.GetString("String006", resourceCulture)
             End Get
@@ -152,7 +237,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus P8H67-V.
         '''</summary>
-        Public ReadOnly Property String007() As String
+        Friend ReadOnly Property String007() As String
             Get
                 Return ResourceManager.GetString("String007", resourceCulture)
             End Get
@@ -161,7 +246,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus P8H61 EVO.
         '''</summary>
-        Public ReadOnly Property String008() As String
+        Friend ReadOnly Property String008() As String
             Get
                 Return ResourceManager.GetString("String008", resourceCulture)
             End Get
@@ -170,7 +255,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus P8H61.
         '''</summary>
-        Public ReadOnly Property String009() As String
+        Friend ReadOnly Property String009() As String
             Get
                 Return ResourceManager.GetString("String009", resourceCulture)
             End Get
@@ -179,7 +264,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte H61M-B3.
         '''</summary>
-        Public ReadOnly Property String010() As String
+        Friend ReadOnly Property String010() As String
             Get
                 Return ResourceManager.GetString("String010", resourceCulture)
             End Get
@@ -188,7 +273,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Previous Generation Core.
         '''</summary>
-        Public ReadOnly Property String011() As String
+        Friend ReadOnly Property String011() As String
             Get
                 Return ResourceManager.GetString("String011", resourceCulture)
             End Get
@@ -197,7 +282,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to i3 540 3.06GHz 4MB.
         '''</summary>
-        Public ReadOnly Property String012() As String
+        Friend ReadOnly Property String012() As String
             Get
                 Return ResourceManager.GetString("String012", resourceCulture)
             End Get
@@ -206,7 +291,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to i5 650 3.20GHz 4MB.
         '''</summary>
-        Public ReadOnly Property String013() As String
+        Friend ReadOnly Property String013() As String
             Get
                 Return ResourceManager.GetString("String013", resourceCulture)
             End Get
@@ -215,7 +300,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to i7 870 2.90GHz 8MB.
         '''</summary>
-        Public ReadOnly Property String014() As String
+        Friend ReadOnly Property String014() As String
             Get
                 Return ResourceManager.GetString("String014", resourceCulture)
             End Get
@@ -224,7 +309,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus H57.
         '''</summary>
-        Public ReadOnly Property String015() As String
+        Friend ReadOnly Property String015() As String
             Get
                 Return ResourceManager.GetString("String015", resourceCulture)
             End Get
@@ -233,7 +318,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus H55.
         '''</summary>
-        Public ReadOnly Property String016() As String
+        Friend ReadOnly Property String016() As String
             Get
                 Return ResourceManager.GetString("String016", resourceCulture)
             End Get
@@ -242,7 +327,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Gigabyte H55M-S2V.
         '''</summary>
-        Public ReadOnly Property String017() As String
+        Friend ReadOnly Property String017() As String
             Get
                 Return ResourceManager.GetString("String017", resourceCulture)
             End Get
@@ -251,7 +336,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to MSI H55.
         '''</summary>
-        Public ReadOnly Property String018() As String
+        Friend ReadOnly Property String018() As String
             Get
                 Return ResourceManager.GetString("String018", resourceCulture)
             End Get
@@ -260,7 +345,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Core 2 Quad.
         '''</summary>
-        Public ReadOnly Property String019() As String
+        Friend ReadOnly Property String019() As String
             Get
                 Return ResourceManager.GetString("String019", resourceCulture)
             End Get
@@ -269,7 +354,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Q9550 2.83GHz 12MB.
         '''</summary>
-        Public ReadOnly Property String020() As String
+        Friend ReadOnly Property String020() As String
             Get
                 Return ResourceManager.GetString("String020", resourceCulture)
             End Get
@@ -278,7 +363,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Q8400 2.66GHz 4MB.
         '''</summary>
-        Public ReadOnly Property String021() As String
+        Friend ReadOnly Property String021() As String
             Get
                 Return ResourceManager.GetString("String021", resourceCulture)
             End Get
@@ -287,7 +372,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Q8300 2.50GHz 4MB.
         '''</summary>
-        Public ReadOnly Property String022() As String
+        Friend ReadOnly Property String022() As String
             Get
                 Return ResourceManager.GetString("String022", resourceCulture)
             End Get
@@ -296,7 +381,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Core 2 Duo.
         '''</summary>
-        Public ReadOnly Property String023() As String
+        Friend ReadOnly Property String023() As String
             Get
                 Return ResourceManager.GetString("String023", resourceCulture)
             End Get
@@ -305,7 +390,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to E8400 3.00 GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String024() As String
+        Friend ReadOnly Property String024() As String
             Get
                 Return ResourceManager.GetString("String024", resourceCulture)
             End Get
@@ -314,7 +399,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to E7500 2.93GHz 3MB.
         '''</summary>
-        Public ReadOnly Property String025() As String
+        Friend ReadOnly Property String025() As String
             Get
                 Return ResourceManager.GetString("String025", resourceCulture)
             End Get
@@ -323,7 +408,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Pentium.
         '''</summary>
-        Public ReadOnly Property String026() As String
+        Friend ReadOnly Property String026() As String
             Get
                 Return ResourceManager.GetString("String026", resourceCulture)
             End Get
@@ -332,7 +417,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to D 920 2.80GHz 4MB.
         '''</summary>
-        Public ReadOnly Property String027() As String
+        Friend ReadOnly Property String027() As String
             Get
                 Return ResourceManager.GetString("String027", resourceCulture)
             End Get
@@ -341,7 +426,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to D 840 3.20GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String028() As String
+        Friend ReadOnly Property String028() As String
             Get
                 Return ResourceManager.GetString("String028", resourceCulture)
             End Get
@@ -350,7 +435,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to D 830 3.00GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String029() As String
+        Friend ReadOnly Property String029() As String
             Get
                 Return ResourceManager.GetString("String029", resourceCulture)
             End Get
@@ -359,7 +444,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 4 640 3.20GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String030() As String
+        Friend ReadOnly Property String030() As String
             Get
                 Return ResourceManager.GetString("String030", resourceCulture)
             End Get
@@ -368,7 +453,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 4 630 3.00GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String031() As String
+        Friend ReadOnly Property String031() As String
             Get
                 Return ResourceManager.GetString("String031", resourceCulture)
             End Get
@@ -377,7 +462,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Celeron.
         '''</summary>
-        Public ReadOnly Property String032() As String
+        Friend ReadOnly Property String032() As String
             Get
                 Return ResourceManager.GetString("String032", resourceCulture)
             End Get
@@ -386,7 +471,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to D 347 3.06GHz 512KB.
         '''</summary>
-        Public ReadOnly Property String033() As String
+        Friend ReadOnly Property String033() As String
             Get
                 Return ResourceManager.GetString("String033", resourceCulture)
             End Get
@@ -395,7 +480,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asrock G31.
         '''</summary>
-        Public ReadOnly Property String034() As String
+        Friend ReadOnly Property String034() As String
             Get
                 Return ResourceManager.GetString("String034", resourceCulture)
             End Get
@@ -404,7 +489,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Foxconn G31.
         '''</summary>
-        Public ReadOnly Property String035() As String
+        Friend ReadOnly Property String035() As String
             Get
                 Return ResourceManager.GetString("String035", resourceCulture)
             End Get
@@ -413,7 +498,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to MSI G41 M-P21.
         '''</summary>
-        Public ReadOnly Property String036() As String
+        Friend ReadOnly Property String036() As String
             Get
                 Return ResourceManager.GetString("String036", resourceCulture)
             End Get
@@ -422,7 +507,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus G41 T-MLX.
         '''</summary>
-        Public ReadOnly Property String037() As String
+        Friend ReadOnly Property String037() As String
             Get
                 Return ResourceManager.GetString("String037", resourceCulture)
             End Get
@@ -431,7 +516,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte G41 MT-S2P.
         '''</summary>
-        Public ReadOnly Property String038() As String
+        Friend ReadOnly Property String038() As String
             Get
                 Return ResourceManager.GetString("String038", resourceCulture)
             End Get
@@ -440,7 +525,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to MSI P41 T C33.
         '''</summary>
-        Public ReadOnly Property String039() As String
+        Friend ReadOnly Property String039() As String
             Get
                 Return ResourceManager.GetString("String039", resourceCulture)
             End Get
@@ -449,7 +534,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus P41 T.
         '''</summary>
-        Public ReadOnly Property String040() As String
+        Friend ReadOnly Property String040() As String
             Get
                 Return ResourceManager.GetString("String040", resourceCulture)
             End Get
@@ -458,7 +543,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte P41 T-D3P.
         '''</summary>
-        Public ReadOnly Property String041() As String
+        Friend ReadOnly Property String041() As String
             Get
                 Return ResourceManager.GetString("String041", resourceCulture)
             End Get
@@ -467,7 +552,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte P45T-ES3G.
         '''</summary>
-        Public ReadOnly Property String042() As String
+        Friend ReadOnly Property String042() As String
             Get
                 Return ResourceManager.GetString("String042", resourceCulture)
             End Get
@@ -476,7 +561,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String043() As String
+        Friend ReadOnly Property String043() As String
             Get
                 Return ResourceManager.GetString("String043", resourceCulture)
             End Get
@@ -485,7 +570,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Phenom II.
         '''</summary>
-        Public ReadOnly Property String044() As String
+        Friend ReadOnly Property String044() As String
             Get
                 Return ResourceManager.GetString("String044", resourceCulture)
             End Get
@@ -494,7 +579,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X6 1090T 3.20GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String045() As String
+        Friend ReadOnly Property String045() As String
             Get
                 Return ResourceManager.GetString("String045", resourceCulture)
             End Get
@@ -503,7 +588,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X6 1075T 3.00GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String046() As String
+        Friend ReadOnly Property String046() As String
             Get
                 Return ResourceManager.GetString("String046", resourceCulture)
             End Get
@@ -512,7 +597,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X6 1055T 2.80GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String047() As String
+        Friend ReadOnly Property String047() As String
             Get
                 Return ResourceManager.GetString("String047", resourceCulture)
             End Get
@@ -521,7 +606,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X4 970 3.50GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String048() As String
+        Friend ReadOnly Property String048() As String
             Get
                 Return ResourceManager.GetString("String048", resourceCulture)
             End Get
@@ -530,7 +615,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X4 965 3.40GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String049() As String
+        Friend ReadOnly Property String049() As String
             Get
                 Return ResourceManager.GetString("String049", resourceCulture)
             End Get
@@ -539,7 +624,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X4 850 3.30GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String050() As String
+        Friend ReadOnly Property String050() As String
             Get
                 Return ResourceManager.GetString("String050", resourceCulture)
             End Get
@@ -548,7 +633,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X2 565 3.40GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String051() As String
+        Friend ReadOnly Property String051() As String
             Get
                 Return ResourceManager.GetString("String051", resourceCulture)
             End Get
@@ -557,7 +642,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X2 555 3.20GHz 6MB.
         '''</summary>
-        Public ReadOnly Property String052() As String
+        Friend ReadOnly Property String052() As String
             Get
                 Return ResourceManager.GetString("String052", resourceCulture)
             End Get
@@ -566,7 +651,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Athlon II.
         '''</summary>
-        Public ReadOnly Property String053() As String
+        Friend ReadOnly Property String053() As String
             Get
                 Return ResourceManager.GetString("String053", resourceCulture)
             End Get
@@ -575,7 +660,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X3 455 3.30GHz 1.5MB.
         '''</summary>
-        Public ReadOnly Property String054() As String
+        Friend ReadOnly Property String054() As String
             Get
                 Return ResourceManager.GetString("String054", resourceCulture)
             End Get
@@ -584,7 +669,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X2 260 3.20GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String055() As String
+        Friend ReadOnly Property String055() As String
             Get
                 Return ResourceManager.GetString("String055", resourceCulture)
             End Get
@@ -593,7 +678,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X2 250 3.00GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String056() As String
+        Friend ReadOnly Property String056() As String
             Get
                 Return ResourceManager.GetString("String056", resourceCulture)
             End Get
@@ -602,7 +687,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to X2 245 2.90GHz 2MB.
         '''</summary>
-        Public ReadOnly Property String057() As String
+        Friend ReadOnly Property String057() As String
             Get
                 Return ResourceManager.GetString("String057", resourceCulture)
             End Get
@@ -611,7 +696,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Sempron.
         '''</summary>
-        Public ReadOnly Property String058() As String
+        Friend ReadOnly Property String058() As String
             Get
                 Return ResourceManager.GetString("String058", resourceCulture)
             End Get
@@ -620,7 +705,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LE-140 2.70GHz 1MB.
         '''</summary>
-        Public ReadOnly Property String059() As String
+        Friend ReadOnly Property String059() As String
             Get
                 Return ResourceManager.GetString("String059", resourceCulture)
             End Get
@@ -629,7 +714,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus Crosshair IV Formula.
         '''</summary>
-        Public ReadOnly Property String060() As String
+        Friend ReadOnly Property String060() As String
             Get
                 Return ResourceManager.GetString("String060", resourceCulture)
             End Get
@@ -638,7 +723,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte GA-970A-D3.
         '''</summary>
-        Public ReadOnly Property String061() As String
+        Friend ReadOnly Property String061() As String
             Get
                 Return ResourceManager.GetString("String061", resourceCulture)
             End Get
@@ -647,7 +732,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte GA-880GM.
         '''</summary>
-        Public ReadOnly Property String062() As String
+        Friend ReadOnly Property String062() As String
             Get
                 Return ResourceManager.GetString("String062", resourceCulture)
             End Get
@@ -656,7 +741,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus M4A88T-M.
         '''</summary>
-        Public ReadOnly Property String063() As String
+        Friend ReadOnly Property String063() As String
             Get
                 Return ResourceManager.GetString("String063", resourceCulture)
             End Get
@@ -665,7 +750,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte 770T-D3L.
         '''</summary>
-        Public ReadOnly Property String064() As String
+        Friend ReadOnly Property String064() As String
             Get
                 Return ResourceManager.GetString("String064", resourceCulture)
             End Get
@@ -674,7 +759,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte GA-M52LT-D3P.
         '''</summary>
-        Public ReadOnly Property String065() As String
+        Friend ReadOnly Property String065() As String
             Get
                 Return ResourceManager.GetString("String065", resourceCulture)
             End Get
@@ -683,7 +768,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte MA78LMT-S2.
         '''</summary>
-        Public ReadOnly Property String066() As String
+        Friend ReadOnly Property String066() As String
             Get
                 Return ResourceManager.GetString("String066", resourceCulture)
             End Get
@@ -692,7 +777,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Asus M4N68T V2.
         '''</summary>
-        Public ReadOnly Property String067() As String
+        Friend ReadOnly Property String067() As String
             Get
                 Return ResourceManager.GetString("String067", resourceCulture)
             End Get
@@ -701,7 +786,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GigaByte GA-M68MT-A2P.
         '''</summary>
-        Public ReadOnly Property String068() As String
+        Friend ReadOnly Property String068() As String
             Get
                 Return ResourceManager.GetString("String068", resourceCulture)
             End Get
@@ -710,7 +795,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to MSI 760GM-P33.
         '''</summary>
-        Public ReadOnly Property String069() As String
+        Friend ReadOnly Property String069() As String
             Get
                 Return ResourceManager.GetString("String069", resourceCulture)
             End Get
@@ -719,7 +804,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to EliteGroup A780LM-M.
         '''</summary>
-        Public ReadOnly Property String070() As String
+        Friend ReadOnly Property String070() As String
             Get
                 Return ResourceManager.GetString("String070", resourceCulture)
             End Get
@@ -728,7 +813,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Jetway JPA76GM.
         '''</summary>
-        Public ReadOnly Property String071() As String
+        Friend ReadOnly Property String071() As String
             Get
                 Return ResourceManager.GetString("String071", resourceCulture)
             End Get
@@ -737,7 +822,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String072() As String
+        Friend ReadOnly Property String072() As String
             Get
                 Return ResourceManager.GetString("String072", resourceCulture)
             End Get
@@ -746,7 +831,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to DDR3.
         '''</summary>
-        Public ReadOnly Property String073() As String
+        Friend ReadOnly Property String073() As String
             Get
                 Return ResourceManager.GetString("String073", resourceCulture)
             End Get
@@ -755,7 +840,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to DDR2.
         '''</summary>
-        Public ReadOnly Property String074() As String
+        Friend ReadOnly Property String074() As String
             Get
                 Return ResourceManager.GetString("String074", resourceCulture)
             End Get
@@ -764,7 +849,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to KingSton.
         '''</summary>
-        Public ReadOnly Property String075() As String
+        Friend ReadOnly Property String075() As String
             Get
                 Return ResourceManager.GetString("String075", resourceCulture)
             End Get
@@ -773,7 +858,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Zepplein.
         '''</summary>
-        Public ReadOnly Property String076() As String
+        Friend ReadOnly Property String076() As String
             Get
                 Return ResourceManager.GetString("String076", resourceCulture)
             End Get
@@ -782,7 +867,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Ketron.
         '''</summary>
-        Public ReadOnly Property String077() As String
+        Friend ReadOnly Property String077() As String
             Get
                 Return ResourceManager.GetString("String077", resourceCulture)
             End Get
@@ -791,7 +876,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Other.
         '''</summary>
-        Public ReadOnly Property String078() As String
+        Friend ReadOnly Property String078() As String
             Get
                 Return ResourceManager.GetString("String078", resourceCulture)
             End Get
@@ -800,7 +885,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 1GB.
         '''</summary>
-        Public ReadOnly Property String079() As String
+        Friend ReadOnly Property String079() As String
             Get
                 Return ResourceManager.GetString("String079", resourceCulture)
             End Get
@@ -809,7 +894,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 2GB.
         '''</summary>
-        Public ReadOnly Property String080() As String
+        Friend ReadOnly Property String080() As String
             Get
                 Return ResourceManager.GetString("String080", resourceCulture)
             End Get
@@ -818,7 +903,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 3GB.
         '''</summary>
-        Public ReadOnly Property String081() As String
+        Friend ReadOnly Property String081() As String
             Get
                 Return ResourceManager.GetString("String081", resourceCulture)
             End Get
@@ -827,7 +912,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 4GB.
         '''</summary>
-        Public ReadOnly Property String082() As String
+        Friend ReadOnly Property String082() As String
             Get
                 Return ResourceManager.GetString("String082", resourceCulture)
             End Get
@@ -836,7 +921,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 6GB.
         '''</summary>
-        Public ReadOnly Property String083() As String
+        Friend ReadOnly Property String083() As String
             Get
                 Return ResourceManager.GetString("String083", resourceCulture)
             End Get
@@ -845,7 +930,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 8GB.
         '''</summary>
-        Public ReadOnly Property String084() As String
+        Friend ReadOnly Property String084() As String
             Get
                 Return ResourceManager.GetString("String084", resourceCulture)
             End Get
@@ -854,7 +939,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to PC667.
         '''</summary>
-        Public ReadOnly Property String085() As String
+        Friend ReadOnly Property String085() As String
             Get
                 Return ResourceManager.GetString("String085", resourceCulture)
             End Get
@@ -863,7 +948,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to PC800.
         '''</summary>
-        Public ReadOnly Property String086() As String
+        Friend ReadOnly Property String086() As String
             Get
                 Return ResourceManager.GetString("String086", resourceCulture)
             End Get
@@ -872,7 +957,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to PC1800.
         '''</summary>
-        Public ReadOnly Property String087() As String
+        Friend ReadOnly Property String087() As String
             Get
                 Return ResourceManager.GetString("String087", resourceCulture)
             End Get
@@ -881,7 +966,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to PC1333.
         '''</summary>
-        Public ReadOnly Property String088() As String
+        Friend ReadOnly Property String088() As String
             Get
                 Return ResourceManager.GetString("String088", resourceCulture)
             End Get
@@ -890,7 +975,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to PC1600.
         '''</summary>
-        Public ReadOnly Property String089() As String
+        Friend ReadOnly Property String089() As String
             Get
                 Return ResourceManager.GetString("String089", resourceCulture)
             End Get
@@ -899,7 +984,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to PC1866.
         '''</summary>
-        Public ReadOnly Property String090() As String
+        Friend ReadOnly Property String090() As String
             Get
                 Return ResourceManager.GetString("String090", resourceCulture)
             End Get
@@ -908,7 +993,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to PC2000.
         '''</summary>
-        Public ReadOnly Property String091() As String
+        Friend ReadOnly Property String091() As String
             Get
                 Return ResourceManager.GetString("String091", resourceCulture)
             End Get
@@ -917,7 +1002,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String092() As String
+        Friend ReadOnly Property String092() As String
             Get
                 Return ResourceManager.GetString("String092", resourceCulture)
             End Get
@@ -926,7 +1011,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Sata 3.
         '''</summary>
-        Public ReadOnly Property String093() As String
+        Friend ReadOnly Property String093() As String
             Get
                 Return ResourceManager.GetString("String093", resourceCulture)
             End Get
@@ -935,7 +1020,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Seagate.
         '''</summary>
-        Public ReadOnly Property String094() As String
+        Friend ReadOnly Property String094() As String
             Get
                 Return ResourceManager.GetString("String094", resourceCulture)
             End Get
@@ -944,7 +1029,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 2TB 64MB.
         '''</summary>
-        Public ReadOnly Property String095() As String
+        Friend ReadOnly Property String095() As String
             Get
                 Return ResourceManager.GetString("String095", resourceCulture)
             End Get
@@ -953,7 +1038,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 1TB 32MB 7200RPM..
         '''</summary>
-        Public ReadOnly Property String096() As String
+        Friend ReadOnly Property String096() As String
             Get
                 Return ResourceManager.GetString("String096", resourceCulture)
             End Get
@@ -962,7 +1047,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 500GB 16MB 7200RPM..
         '''</summary>
-        Public ReadOnly Property String097() As String
+        Friend ReadOnly Property String097() As String
             Get
                 Return ResourceManager.GetString("String097", resourceCulture)
             End Get
@@ -971,7 +1056,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to WD.
         '''</summary>
-        Public ReadOnly Property String098() As String
+        Friend ReadOnly Property String098() As String
             Get
                 Return ResourceManager.GetString("String098", resourceCulture)
             End Get
@@ -980,7 +1065,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 500GB 16MB 7200RPM.
         '''</summary>
-        Public ReadOnly Property String099() As String
+        Friend ReadOnly Property String099() As String
             Get
                 Return ResourceManager.GetString("String099", resourceCulture)
             End Get
@@ -989,7 +1074,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Sata 2.
         '''</summary>
-        Public ReadOnly Property String100() As String
+        Friend ReadOnly Property String100() As String
             Get
                 Return ResourceManager.GetString("String100", resourceCulture)
             End Get
@@ -998,7 +1083,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Seagate.
         '''</summary>
-        Public ReadOnly Property String101() As String
+        Friend ReadOnly Property String101() As String
             Get
                 Return ResourceManager.GetString("String101", resourceCulture)
             End Get
@@ -1007,7 +1092,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 1TB 32MB 7200RPM.
         '''</summary>
-        Public ReadOnly Property String102() As String
+        Friend ReadOnly Property String102() As String
             Get
                 Return ResourceManager.GetString("String102", resourceCulture)
             End Get
@@ -1016,7 +1101,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Samsung.
         '''</summary>
-        Public ReadOnly Property String103() As String
+        Friend ReadOnly Property String103() As String
             Get
                 Return ResourceManager.GetString("String103", resourceCulture)
             End Get
@@ -1025,7 +1110,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 500GB 16MB 7200RPM.
         '''</summary>
-        Public ReadOnly Property String104() As String
+        Friend ReadOnly Property String104() As String
             Get
                 Return ResourceManager.GetString("String104", resourceCulture)
             End Get
@@ -1034,7 +1119,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to WD.
         '''</summary>
-        Public ReadOnly Property String105() As String
+        Friend ReadOnly Property String105() As String
             Get
                 Return ResourceManager.GetString("String105", resourceCulture)
             End Get
@@ -1043,7 +1128,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 1TB 64MB 5400RPM.
         '''</summary>
-        Public ReadOnly Property String106() As String
+        Friend ReadOnly Property String106() As String
             Get
                 Return ResourceManager.GetString("String106", resourceCulture)
             End Get
@@ -1052,7 +1137,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 500GB 32MB 7200RPM.
         '''</summary>
-        Public ReadOnly Property String107() As String
+        Friend ReadOnly Property String107() As String
             Get
                 Return ResourceManager.GetString("String107", resourceCulture)
             End Get
@@ -1061,7 +1146,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 500GB 16MB 7200RPM..
         '''</summary>
-        Public ReadOnly Property String108() As String
+        Friend ReadOnly Property String108() As String
             Get
                 Return ResourceManager.GetString("String108", resourceCulture)
             End Get
@@ -1070,7 +1155,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 320GB 8MB 7200RPM.
         '''</summary>
-        Public ReadOnly Property String109() As String
+        Friend ReadOnly Property String109() As String
             Get
                 Return ResourceManager.GetString("String109", resourceCulture)
             End Get
@@ -1079,7 +1164,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 250GB 8MB 5400RPM.
         '''</summary>
-        Public ReadOnly Property String110() As String
+        Friend ReadOnly Property String110() As String
             Get
                 Return ResourceManager.GetString("String110", resourceCulture)
             End Get
@@ -1088,7 +1173,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 160GB 8MB 5400RPM.
         '''</summary>
-        Public ReadOnly Property String111() As String
+        Friend ReadOnly Property String111() As String
             Get
                 Return ResourceManager.GetString("String111", resourceCulture)
             End Get
@@ -1097,7 +1182,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String112() As String
+        Friend ReadOnly Property String112() As String
             Get
                 Return ResourceManager.GetString("String112", resourceCulture)
             End Get
@@ -1106,7 +1191,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to G210 1GB DDR3.
         '''</summary>
-        Public ReadOnly Property String113() As String
+        Friend ReadOnly Property String113() As String
             Get
                 Return ResourceManager.GetString("String113", resourceCulture)
             End Get
@@ -1115,7 +1200,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 8400GS 1GB DDR2.
         '''</summary>
-        Public ReadOnly Property String114() As String
+        Friend ReadOnly Property String114() As String
             Get
                 Return ResourceManager.GetString("String114", resourceCulture)
             End Get
@@ -1124,7 +1209,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GT9500 1GB DDR2.
         '''</summary>
-        Public ReadOnly Property String115() As String
+        Friend ReadOnly Property String115() As String
             Get
                 Return ResourceManager.GetString("String115", resourceCulture)
             End Get
@@ -1133,7 +1218,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GT220 1GB DDR3.
         '''</summary>
-        Public ReadOnly Property String116() As String
+        Friend ReadOnly Property String116() As String
             Get
                 Return ResourceManager.GetString("String116", resourceCulture)
             End Get
@@ -1142,7 +1227,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GT430 2GB DDR3.
         '''</summary>
-        Public ReadOnly Property String117() As String
+        Friend ReadOnly Property String117() As String
             Get
                 Return ResourceManager.GetString("String117", resourceCulture)
             End Get
@@ -1151,7 +1236,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GTX550 1GB DDR5.
         '''</summary>
-        Public ReadOnly Property String118() As String
+        Friend ReadOnly Property String118() As String
             Get
                 Return ResourceManager.GetString("String118", resourceCulture)
             End Get
@@ -1160,7 +1245,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GTX460 1GB DDR5.
         '''</summary>
-        Public ReadOnly Property String119() As String
+        Friend ReadOnly Property String119() As String
             Get
                 Return ResourceManager.GetString("String119", resourceCulture)
             End Get
@@ -1169,7 +1254,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GTX470 1.3GB DDR5.
         '''</summary>
-        Public ReadOnly Property String120() As String
+        Friend ReadOnly Property String120() As String
             Get
                 Return ResourceManager.GetString("String120", resourceCulture)
             End Get
@@ -1178,7 +1263,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GTX480 1.5GB DDR5.
         '''</summary>
-        Public ReadOnly Property String121() As String
+        Friend ReadOnly Property String121() As String
             Get
                 Return ResourceManager.GetString("String121", resourceCulture)
             End Get
@@ -1187,7 +1272,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to GTX590 3GB DDR5.
         '''</summary>
-        Public ReadOnly Property String122() As String
+        Friend ReadOnly Property String122() As String
             Get
                 Return ResourceManager.GetString("String122", resourceCulture)
             End Get
@@ -1196,7 +1281,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String123() As String
+        Friend ReadOnly Property String123() As String
             Get
                 Return ResourceManager.GetString("String123", resourceCulture)
             End Get
@@ -1205,7 +1290,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 4350 512MB DDR2.
         '''</summary>
-        Public ReadOnly Property String124() As String
+        Friend ReadOnly Property String124() As String
             Get
                 Return ResourceManager.GetString("String124", resourceCulture)
             End Get
@@ -1214,7 +1299,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 5450 1GB DDR3.
         '''</summary>
-        Public ReadOnly Property String125() As String
+        Friend ReadOnly Property String125() As String
             Get
                 Return ResourceManager.GetString("String125", resourceCulture)
             End Get
@@ -1223,7 +1308,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 5450 2GB DDR3.
         '''</summary>
-        Public ReadOnly Property String126() As String
+        Friend ReadOnly Property String126() As String
             Get
                 Return ResourceManager.GetString("String126", resourceCulture)
             End Get
@@ -1232,7 +1317,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 5570 2GB DDR3.
         '''</summary>
-        Public ReadOnly Property String127() As String
+        Friend ReadOnly Property String127() As String
             Get
                 Return ResourceManager.GetString("String127", resourceCulture)
             End Get
@@ -1241,7 +1326,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 5670 1GB DDR5.
         '''</summary>
-        Public ReadOnly Property String128() As String
+        Friend ReadOnly Property String128() As String
             Get
                 Return ResourceManager.GetString("String128", resourceCulture)
             End Get
@@ -1250,7 +1335,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 6770 1GB DDR5.
         '''</summary>
-        Public ReadOnly Property String129() As String
+        Friend ReadOnly Property String129() As String
             Get
                 Return ResourceManager.GetString("String129", resourceCulture)
             End Get
@@ -1259,7 +1344,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 6850 1GB DDR5.
         '''</summary>
-        Public ReadOnly Property String130() As String
+        Friend ReadOnly Property String130() As String
             Get
                 Return ResourceManager.GetString("String130", resourceCulture)
             End Get
@@ -1268,7 +1353,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 6950 2GB DDR5.
         '''</summary>
-        Public ReadOnly Property String131() As String
+        Friend ReadOnly Property String131() As String
             Get
                 Return ResourceManager.GetString("String131", resourceCulture)
             End Get
@@ -1277,7 +1362,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 6970 2GB DDR5.
         '''</summary>
-        Public ReadOnly Property String132() As String
+        Friend ReadOnly Property String132() As String
             Get
                 Return ResourceManager.GetString("String132", resourceCulture)
             End Get
@@ -1286,7 +1371,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 6990 4GB DDR5.
         '''</summary>
-        Public ReadOnly Property String133() As String
+        Friend ReadOnly Property String133() As String
             Get
                 Return ResourceManager.GetString("String133", resourceCulture)
             End Get
@@ -1295,7 +1380,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String134() As String
+        Friend ReadOnly Property String134() As String
             Get
                 Return ResourceManager.GetString("String134", resourceCulture)
             End Get
@@ -1304,7 +1389,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to VL30001N1Z L10+850W.
         '''</summary>
-        Public ReadOnly Property String135() As String
+        Friend ReadOnly Property String135() As String
             Get
                 Return ResourceManager.GetString("String135", resourceCulture)
             End Get
@@ -1313,7 +1398,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to HQ VH6000SWA+850W.
         '''</summary>
-        Public ReadOnly Property String136() As String
+        Friend ReadOnly Property String136() As String
             Get
                 Return ResourceManager.GetString("String136", resourceCulture)
             End Get
@@ -1322,7 +1407,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to VJ400+ATX P4 850W.
         '''</summary>
-        Public ReadOnly Property String137() As String
+        Friend ReadOnly Property String137() As String
             Get
                 Return ResourceManager.GetString("String137", resourceCulture)
             End Get
@@ -1331,7 +1416,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to VI4000BWS M9D+850W.
         '''</summary>
-        Public ReadOnly Property String138() As String
+        Friend ReadOnly Property String138() As String
             Get
                 Return ResourceManager.GetString("String138", resourceCulture)
             End Get
@@ -1340,7 +1425,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to VJ400+ATX P4 LGA 550W.
         '''</summary>
-        Public ReadOnly Property String139() As String
+        Friend ReadOnly Property String139() As String
             Get
                 Return ResourceManager.GetString("String139", resourceCulture)
             End Get
@@ -1349,7 +1434,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to VJ400+ATX P4 600W.
         '''</summary>
-        Public ReadOnly Property String140() As String
+        Friend ReadOnly Property String140() As String
             Get
                 Return ResourceManager.GetString("String140", resourceCulture)
             End Get
@@ -1358,7 +1443,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to VI4000BWS M9D+600W.
         '''</summary>
-        Public ReadOnly Property String141() As String
+        Friend ReadOnly Property String141() As String
             Get
                 Return ResourceManager.GetString("String141", resourceCulture)
             End Get
@@ -1367,7 +1452,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to VL84521W2E V3 BE 450W.
         '''</summary>
-        Public ReadOnly Property String142() As String
+        Friend ReadOnly Property String142() As String
             Get
                 Return ResourceManager.GetString("String142", resourceCulture)
             End Get
@@ -1376,7 +1461,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to MQ+Sega 500W.
         '''</summary>
-        Public ReadOnly Property String143() As String
+        Friend ReadOnly Property String143() As String
             Get
                 Return ResourceManager.GetString("String143", resourceCulture)
             End Get
@@ -1385,7 +1470,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to MQ+ATX 350W.
         '''</summary>
-        Public ReadOnly Property String144() As String
+        Friend ReadOnly Property String144() As String
             Get
                 Return ResourceManager.GetString("String144", resourceCulture)
             End Get
@@ -1394,7 +1479,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Normal Case.
         '''</summary>
-        Public ReadOnly Property String145() As String
+        Friend ReadOnly Property String145() As String
             Get
                 Return ResourceManager.GetString("String145", resourceCulture)
             End Get
@@ -1403,7 +1488,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String146() As String
+        Friend ReadOnly Property String146() As String
             Get
                 Return ResourceManager.GetString("String146", resourceCulture)
             End Get
@@ -1412,7 +1497,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to CRT 17&quot;.
         '''</summary>
-        Public ReadOnly Property String147() As String
+        Friend ReadOnly Property String147() As String
             Get
                 Return ResourceManager.GetString("String147", resourceCulture)
             End Get
@@ -1421,7 +1506,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 18.5&quot; HD.
         '''</summary>
-        Public ReadOnly Property String148() As String
+        Friend ReadOnly Property String148() As String
             Get
                 Return ResourceManager.GetString("String148", resourceCulture)
             End Get
@@ -1430,7 +1515,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 19&quot; 1440*800.
         '''</summary>
-        Public ReadOnly Property String149() As String
+        Friend ReadOnly Property String149() As String
             Get
                 Return ResourceManager.GetString("String149", resourceCulture)
             End Get
@@ -1439,7 +1524,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Philips 18.5&quot; HD.
         '''</summary>
-        Public ReadOnly Property String150() As String
+        Friend ReadOnly Property String150() As String
             Get
                 Return ResourceManager.GetString("String150", resourceCulture)
             End Get
@@ -1448,7 +1533,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 18.5&quot; HD LED.
         '''</summary>
-        Public ReadOnly Property String151() As String
+        Friend ReadOnly Property String151() As String
             Get
                 Return ResourceManager.GetString("String151", resourceCulture)
             End Get
@@ -1457,7 +1542,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 20&quot; 1600*900 LED.
         '''</summary>
-        Public ReadOnly Property String152() As String
+        Friend ReadOnly Property String152() As String
             Get
                 Return ResourceManager.GetString("String152", resourceCulture)
             End Get
@@ -1466,7 +1551,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 21.5&quot; Full HD.
         '''</summary>
-        Public ReadOnly Property String153() As String
+        Friend ReadOnly Property String153() As String
             Get
                 Return ResourceManager.GetString("String153", resourceCulture)
             End Get
@@ -1475,7 +1560,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 20&quot; 1680*1050.
         '''</summary>
-        Public ReadOnly Property String154() As String
+        Friend ReadOnly Property String154() As String
             Get
                 Return ResourceManager.GetString("String154", resourceCulture)
             End Get
@@ -1484,7 +1569,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 21.5&quot; Full HD LED.
         '''</summary>
-        Public ReadOnly Property String155() As String
+        Friend ReadOnly Property String155() As String
             Get
                 Return ResourceManager.GetString("String155", resourceCulture)
             End Get
@@ -1493,7 +1578,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Samsung 23&quot;Full HD.
         '''</summary>
-        Public ReadOnly Property String156() As String
+        Friend ReadOnly Property String156() As String
             Get
                 Return ResourceManager.GetString("String156", resourceCulture)
             End Get
@@ -1502,7 +1587,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 27&quot; TV Full HD.
         '''</summary>
-        Public ReadOnly Property String157() As String
+        Friend ReadOnly Property String157() As String
             Get
                 Return ResourceManager.GetString("String157", resourceCulture)
             End Get
@@ -1511,7 +1596,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG 17&quot; SXGA Touch.
         '''</summary>
-        Public ReadOnly Property String158() As String
+        Friend ReadOnly Property String158() As String
             Get
                 Return ResourceManager.GetString("String158", resourceCulture)
             End Get
@@ -1520,7 +1605,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String159() As String
+        Friend ReadOnly Property String159() As String
             Get
                 Return ResourceManager.GetString("String159", resourceCulture)
             End Get
@@ -1529,7 +1614,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Microsoft Wireless KB+Mouse.
         '''</summary>
-        Public ReadOnly Property String160() As String
+        Friend ReadOnly Property String160() As String
             Get
                 Return ResourceManager.GetString("String160", resourceCulture)
             End Get
@@ -1538,7 +1623,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Microsoft Wireless KB HQ.
         '''</summary>
-        Public ReadOnly Property String161() As String
+        Friend ReadOnly Property String161() As String
             Get
                 Return ResourceManager.GetString("String161", resourceCulture)
             End Get
@@ -1547,7 +1632,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Hi-Rali Wireless KB.
         '''</summary>
-        Public ReadOnly Property String162() As String
+        Friend ReadOnly Property String162() As String
             Get
                 Return ResourceManager.GetString("String162", resourceCulture)
             End Get
@@ -1556,7 +1641,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to KBM 2809 PS2.
         '''</summary>
-        Public ReadOnly Property String163() As String
+        Friend ReadOnly Property String163() As String
             Get
                 Return ResourceManager.GetString("String163", resourceCulture)
             End Get
@@ -1565,7 +1650,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Genius KB 120.
         '''</summary>
-        Public ReadOnly Property String164() As String
+        Friend ReadOnly Property String164() As String
             Get
                 Return ResourceManager.GetString("String164", resourceCulture)
             End Get
@@ -1574,7 +1659,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Hi Walk PS2 KB.
         '''</summary>
-        Public ReadOnly Property String165() As String
+        Friend ReadOnly Property String165() As String
             Get
                 Return ResourceManager.GetString("String165", resourceCulture)
             End Get
@@ -1583,7 +1668,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Microsoft USB KB.
         '''</summary>
-        Public ReadOnly Property String166() As String
+        Friend ReadOnly Property String166() As String
             Get
                 Return ResourceManager.GetString("String166", resourceCulture)
             End Get
@@ -1592,7 +1677,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG WPK-300 USB KB.
         '''</summary>
-        Public ReadOnly Property String167() As String
+        Friend ReadOnly Property String167() As String
             Get
                 Return ResourceManager.GetString("String167", resourceCulture)
             End Get
@@ -1601,7 +1686,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Hi Walk  K618U USB KB.
         '''</summary>
-        Public ReadOnly Property String168() As String
+        Friend ReadOnly Property String168() As String
             Get
                 Return ResourceManager.GetString("String168", resourceCulture)
             End Get
@@ -1610,7 +1695,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String169() As String
+        Friend ReadOnly Property String169() As String
             Get
                 Return ResourceManager.GetString("String169", resourceCulture)
             End Get
@@ -1619,7 +1704,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Microsoft Wireless GMF-7.
         '''</summary>
-        Public ReadOnly Property String170() As String
+        Friend ReadOnly Property String170() As String
             Get
                 Return ResourceManager.GetString("String170", resourceCulture)
             End Get
@@ -1628,7 +1713,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Nortek Wireless EGOS 8.
         '''</summary>
-        Public ReadOnly Property String171() As String
+        Friend ReadOnly Property String171() As String
             Get
                 Return ResourceManager.GetString("String171", resourceCulture)
             End Get
@@ -1637,7 +1722,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Genius XSCROLL PS2.
         '''</summary>
-        Public ReadOnly Property String172() As String
+        Friend ReadOnly Property String172() As String
             Get
                 Return ResourceManager.GetString("String172", resourceCulture)
             End Get
@@ -1646,7 +1731,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Hi Walk XM-523P PS2.
         '''</summary>
-        Public ReadOnly Property String173() As String
+        Friend ReadOnly Property String173() As String
             Get
                 Return ResourceManager.GetString("String173", resourceCulture)
             End Get
@@ -1655,7 +1740,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Microsoft U81-11 USB.
         '''</summary>
-        Public ReadOnly Property String174() As String
+        Friend ReadOnly Property String174() As String
             Get
                 Return ResourceManager.GetString("String174", resourceCulture)
             End Get
@@ -1664,7 +1749,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to LG G-606 USB.
         '''</summary>
-        Public ReadOnly Property String175() As String
+        Friend ReadOnly Property String175() As String
             Get
                 Return ResourceManager.GetString("String175", resourceCulture)
             End Get
@@ -1673,7 +1758,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Hi Walk JY-306M.
         '''</summary>
-        Public ReadOnly Property String176() As String
+        Friend ReadOnly Property String176() As String
             Get
                 Return ResourceManager.GetString("String176", resourceCulture)
             End Get
@@ -1682,7 +1767,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String177() As String
+        Friend ReadOnly Property String177() As String
             Get
                 Return ResourceManager.GetString("String177", resourceCulture)
             End Get
@@ -1691,7 +1776,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Mouse Pad.
         '''</summary>
-        Public ReadOnly Property String178() As String
+        Friend ReadOnly Property String178() As String
             Get
                 Return ResourceManager.GetString("String178", resourceCulture)
             End Get
@@ -1700,7 +1785,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Mouse Pad Deluxe.
         '''</summary>
-        Public ReadOnly Property String179() As String
+        Friend ReadOnly Property String179() As String
             Get
                 Return ResourceManager.GetString("String179", resourceCulture)
             End Get
@@ -1709,7 +1794,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Mouse Pad+(Calc,CR,3USB Port).
         '''</summary>
-        Public ReadOnly Property String180() As String
+        Friend ReadOnly Property String180() As String
             Get
                 Return ResourceManager.GetString("String180", resourceCulture)
             End Get
@@ -1718,7 +1803,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String181() As String
+        Friend ReadOnly Property String181() As String
             Get
                 Return ResourceManager.GetString("String181", resourceCulture)
             End Get
@@ -1727,7 +1812,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Stereo Speaker.
         '''</summary>
-        Public ReadOnly Property String182() As String
+        Friend ReadOnly Property String182() As String
             Get
                 Return ResourceManager.GetString("String182", resourceCulture)
             End Get
@@ -1736,7 +1821,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 2.1 Speaker.
         '''</summary>
-        Public ReadOnly Property String183() As String
+        Friend ReadOnly Property String183() As String
             Get
                 Return ResourceManager.GetString("String183", resourceCulture)
             End Get
@@ -1745,7 +1830,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 4.1 Speaker.
         '''</summary>
-        Public ReadOnly Property String184() As String
+        Friend ReadOnly Property String184() As String
             Get
                 Return ResourceManager.GetString("String184", resourceCulture)
             End Get
@@ -1754,7 +1839,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 5.1 Speaker.
         '''</summary>
-        Public ReadOnly Property String185() As String
+        Friend ReadOnly Property String185() As String
             Get
                 Return ResourceManager.GetString("String185", resourceCulture)
             End Get
@@ -1763,7 +1848,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Headphone.
         '''</summary>
-        Public ReadOnly Property String186() As String
+        Friend ReadOnly Property String186() As String
             Get
                 Return ResourceManager.GetString("String186", resourceCulture)
             End Get
@@ -1772,7 +1857,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Headphone Deluxe.
         '''</summary>
-        Public ReadOnly Property String187() As String
+        Friend ReadOnly Property String187() As String
             Get
                 Return ResourceManager.GetString("String187", resourceCulture)
             End Get
@@ -1781,7 +1866,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Headphone + Microphone USB.
         '''</summary>
-        Public ReadOnly Property String188() As String
+        Friend ReadOnly Property String188() As String
             Get
                 Return ResourceManager.GetString("String188", resourceCulture)
             End Get
@@ -1790,7 +1875,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String189() As String
+        Friend ReadOnly Property String189() As String
             Get
                 Return ResourceManager.GetString("String189", resourceCulture)
             End Get
@@ -1799,7 +1884,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to HP F1050 Copied.
         '''</summary>
-        Public ReadOnly Property String190() As String
+        Friend ReadOnly Property String190() As String
             Get
                 Return ResourceManager.GetString("String190", resourceCulture)
             End Get
@@ -1808,7 +1893,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Epson tx117 Copied.
         '''</summary>
-        Public ReadOnly Property String191() As String
+        Friend ReadOnly Property String191() As String
             Get
                 Return ResourceManager.GetString("String191", resourceCulture)
             End Get
@@ -1817,7 +1902,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Samsung ML-1915 Laser.
         '''</summary>
-        Public ReadOnly Property String192() As String
+        Friend ReadOnly Property String192() As String
             Get
                 Return ResourceManager.GetString("String192", resourceCulture)
             End Get
@@ -1826,7 +1911,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Samsung ML-2525 Laser.
         '''</summary>
-        Public ReadOnly Property String193() As String
+        Friend ReadOnly Property String193() As String
             Get
                 Return ResourceManager.GetString("String193", resourceCulture)
             End Get
@@ -1835,7 +1920,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Samsung CLP-320 Laser.
         '''</summary>
-        Public ReadOnly Property String194() As String
+        Friend ReadOnly Property String194() As String
             Get
                 Return ResourceManager.GetString("String194", resourceCulture)
             End Get
@@ -1844,7 +1929,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to HP 8000DWN.
         '''</summary>
-        Public ReadOnly Property String195() As String
+        Friend ReadOnly Property String195() As String
             Get
                 Return ResourceManager.GetString("String195", resourceCulture)
             End Get
@@ -1853,7 +1938,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String196() As String
+        Friend ReadOnly Property String196() As String
             Get
                 Return ResourceManager.GetString("String196", resourceCulture)
             End Get
@@ -1862,7 +1947,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Nortek Webcam 300K.
         '''</summary>
-        Public ReadOnly Property String197() As String
+        Friend ReadOnly Property String197() As String
             Get
                 Return ResourceManager.GetString("String197", resourceCulture)
             End Get
@@ -1871,7 +1956,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Hi Walk MS117 5MP.
         '''</summary>
-        Public ReadOnly Property String198() As String
+        Friend ReadOnly Property String198() As String
             Get
                 Return ResourceManager.GetString("String198", resourceCulture)
             End Get
@@ -1880,7 +1965,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 10MOONS P2 5MP.
         '''</summary>
-        Public ReadOnly Property String199() As String
+        Friend ReadOnly Property String199() As String
             Get
                 Return ResourceManager.GetString("String199", resourceCulture)
             End Get
@@ -1889,7 +1974,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Manhattan 7.6MP.
         '''</summary>
-        Public ReadOnly Property String200() As String
+        Friend ReadOnly Property String200() As String
             Get
                 Return ResourceManager.GetString("String200", resourceCulture)
             End Get
@@ -1898,7 +1983,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String201() As String
+        Friend ReadOnly Property String201() As String
             Get
                 Return ResourceManager.GetString("String201", resourceCulture)
             End Get
@@ -1907,7 +1992,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Bluetooth 2 up to 100M.
         '''</summary>
-        Public ReadOnly Property String202() As String
+        Friend ReadOnly Property String202() As String
             Get
                 Return ResourceManager.GetString("String202", resourceCulture)
             End Get
@@ -1916,7 +2001,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Bluetooth 3.
         '''</summary>
-        Public ReadOnly Property String203() As String
+        Friend ReadOnly Property String203() As String
             Get
                 Return ResourceManager.GetString("String203", resourceCulture)
             End Get
@@ -1925,7 +2010,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String204() As String
+        Friend ReadOnly Property String204() As String
             Get
                 Return ResourceManager.GetString("String204", resourceCulture)
             End Get
@@ -1934,7 +2019,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Genx Plus.
         '''</summary>
-        Public ReadOnly Property String205() As String
+        Friend ReadOnly Property String205() As String
             Get
                 Return ResourceManager.GetString("String205", resourceCulture)
             End Get
@@ -1943,7 +2028,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Canon LIDE110.
         '''</summary>
-        Public ReadOnly Property String206() As String
+        Friend ReadOnly Property String206() As String
             Get
                 Return ResourceManager.GetString("String206", resourceCulture)
             End Get
@@ -1952,7 +2037,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to HP G2710.
         '''</summary>
-        Public ReadOnly Property String207() As String
+        Friend ReadOnly Property String207() As String
             Get
                 Return ResourceManager.GetString("String207", resourceCulture)
             End Get
@@ -1961,7 +2046,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String208() As String
+        Friend ReadOnly Property String208() As String
             Get
                 Return ResourceManager.GetString("String208", resourceCulture)
             End Get
@@ -1970,7 +2055,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to DVD RW X24.
         '''</summary>
-        Public ReadOnly Property String209() As String
+        Friend ReadOnly Property String209() As String
             Get
                 Return ResourceManager.GetString("String209", resourceCulture)
             End Get
@@ -1979,7 +2064,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to BlueRay Combo.
         '''</summary>
-        Public ReadOnly Property String210() As String
+        Friend ReadOnly Property String210() As String
             Get
                 Return ResourceManager.GetString("String210", resourceCulture)
             End Get
@@ -1988,7 +2073,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to BlueRay RW.
         '''</summary>
-        Public ReadOnly Property String211() As String
+        Friend ReadOnly Property String211() As String
             Get
                 Return ResourceManager.GetString("String211", resourceCulture)
             End Get
@@ -1997,7 +2082,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String212() As String
+        Friend ReadOnly Property String212() As String
             Get
                 Return ResourceManager.GetString("String212", resourceCulture)
             End Get
@@ -2006,7 +2091,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to All in 1.
         '''</summary>
-        Public ReadOnly Property String213() As String
+        Friend ReadOnly Property String213() As String
             Get
                 Return ResourceManager.GetString("String213", resourceCulture)
             End Get
@@ -2015,7 +2100,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Manhattan 63 in 1.
         '''</summary>
-        Public ReadOnly Property String214() As String
+        Friend ReadOnly Property String214() As String
             Get
                 Return ResourceManager.GetString("String214", resourceCulture)
             End Get
@@ -2024,7 +2109,7 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Genius CR-903U All in 1.
         '''</summary>
-        Public ReadOnly Property String215() As String
+        Friend ReadOnly Property String215() As String
             Get
                 Return ResourceManager.GetString("String215", resourceCulture)
             End Get
@@ -2033,9 +2118,19 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to **********************.
         '''</summary>
-        Public ReadOnly Property String216() As String
+        Friend ReadOnly Property String216() As String
             Get
                 Return ResourceManager.GetString("String216", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property xit() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("xit", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
     End Module

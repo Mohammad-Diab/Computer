@@ -14,15 +14,15 @@ Partial Class AboutBox1
         End Try
     End Sub
 
-
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
 
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AboutBox1))
         Me.OKButton = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -35,7 +35,7 @@ Partial Class AboutBox1
         Me.OKButton.Location = New System.Drawing.Point(485, 202)
         Me.OKButton.Name = "OKButton"
         Me.OKButton.Size = New System.Drawing.Size(75, 23)
-        Me.OKButton.TabIndex = 7
+        Me.OKButton.TabIndex = 11
         Me.OKButton.Text = "OK"
         Me.OKButton.UseVisualStyleBackColor = True
         '
@@ -43,10 +43,10 @@ Partial Class AboutBox1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(320, 44)
+        Me.Label2.Location = New System.Drawing.Point(334, 49)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(143, 52)
-        Me.Label2.TabIndex = 6
+        Me.Label2.TabIndex = 10
         Me.Label2.Text = "Computer 2011" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Version 1.10"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -54,18 +54,20 @@ Partial Class AboutBox1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(257, 121)
+        Me.Label1.Location = New System.Drawing.Point(280, 129)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(268, 46)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "© 2011 The Legend Corporation." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "All Right Reserved."
+        Me.Label1.TabIndex = 9
+        Me.Label1.Text = "© 2011 The Legend Corporation." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "All Rights Reserved."
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Image = Global.Computer_1.My.Resources.Resources.Legend
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(251, 225)
-        Me.PictureBox1.TabIndex = 8
+        Me.PictureBox1.Size = New System.Drawing.Size(251, 228)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 12
         Me.PictureBox1.TabStop = False
         '
         'AboutBox1
@@ -73,11 +75,12 @@ Partial Class AboutBox1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(572, 237)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.OKButton)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "AboutBox1"
@@ -90,9 +93,9 @@ Partial Class AboutBox1
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents OKButton As System.Windows.Forms.Button
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
+    Friend WithEvents OKButton As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

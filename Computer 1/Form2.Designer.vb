@@ -124,10 +124,10 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(449, 631)
+        Me.Button1.Location = New System.Drawing.Point(451, 633)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 153
+        Me.Button1.TabIndex = 230
         Me.Button1.Text = "OK"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -135,219 +135,219 @@ Partial Class Form2
         '
         Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
         Me.PictureBox20.InitialImage = Nothing
-        Me.PictureBox20.Location = New System.Drawing.Point(442, 13)
+        Me.PictureBox20.Location = New System.Drawing.Point(444, 15)
         Me.PictureBox20.Name = "PictureBox20"
         Me.PictureBox20.Size = New System.Drawing.Size(3, 600)
         Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox20.TabIndex = 152
+        Me.PictureBox20.TabIndex = 229
         Me.PictureBox20.TabStop = False
         '
         'PictureBox19
         '
         Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
         Me.PictureBox19.InitialImage = Nothing
-        Me.PictureBox19.Location = New System.Drawing.Point(141, 10)
+        Me.PictureBox19.Location = New System.Drawing.Point(143, 12)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(3, 650)
         Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox19.TabIndex = 151
+        Me.PictureBox19.TabIndex = 228
         Me.PictureBox19.TabStop = False
         '
         'PictureBox18
         '
         Me.PictureBox18.InitialImage = Nothing
-        Me.PictureBox18.Location = New System.Drawing.Point(13, 324)
+        Me.PictureBox18.Location = New System.Drawing.Point(15, 326)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(60, 3)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox18.TabIndex = 150
+        Me.PictureBox18.TabIndex = 227
         Me.PictureBox18.TabStop = False
         '
         'PictureBox17
         '
         Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
         Me.PictureBox17.InitialImage = Nothing
-        Me.PictureBox17.Location = New System.Drawing.Point(5, 615)
+        Me.PictureBox17.Location = New System.Drawing.Point(7, 617)
         Me.PictureBox17.Name = "PictureBox17"
         Me.PictureBox17.Size = New System.Drawing.Size(530, 3)
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox17.TabIndex = 149
+        Me.PictureBox17.TabIndex = 226
         Me.PictureBox17.TabStop = False
         '
         'PictureBox16
         '
         Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
         Me.PictureBox16.InitialImage = Nothing
-        Me.PictureBox16.Location = New System.Drawing.Point(51, 582)
+        Me.PictureBox16.Location = New System.Drawing.Point(53, 584)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox16.TabIndex = 148
+        Me.PictureBox16.TabIndex = 225
         Me.PictureBox16.TabStop = False
         '
         'PictureBox15
         '
         Me.PictureBox15.Image = CType(resources.GetObject("PictureBox15.Image"), System.Drawing.Image)
         Me.PictureBox15.InitialImage = Nothing
-        Me.PictureBox15.Location = New System.Drawing.Point(51, 552)
+        Me.PictureBox15.Location = New System.Drawing.Point(53, 554)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox15.TabIndex = 147
+        Me.PictureBox15.TabIndex = 224
         Me.PictureBox15.TabStop = False
         '
         'PictureBox14
         '
         Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
         Me.PictureBox14.InitialImage = Nothing
-        Me.PictureBox14.Location = New System.Drawing.Point(51, 521)
+        Me.PictureBox14.Location = New System.Drawing.Point(53, 523)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox14.TabIndex = 146
+        Me.PictureBox14.TabIndex = 223
         Me.PictureBox14.TabStop = False
         '
         'PictureBox13
         '
         Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
         Me.PictureBox13.InitialImage = Nothing
-        Me.PictureBox13.Location = New System.Drawing.Point(51, 489)
+        Me.PictureBox13.Location = New System.Drawing.Point(53, 491)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox13.TabIndex = 145
+        Me.PictureBox13.TabIndex = 222
         Me.PictureBox13.TabStop = False
         '
         'PictureBox12
         '
         Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
         Me.PictureBox12.InitialImage = Nothing
-        Me.PictureBox12.Location = New System.Drawing.Point(52, 457)
+        Me.PictureBox12.Location = New System.Drawing.Point(54, 459)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox12.TabIndex = 144
+        Me.PictureBox12.TabIndex = 221
         Me.PictureBox12.TabStop = False
         '
         'PictureBox11
         '
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
         Me.PictureBox11.InitialImage = Nothing
-        Me.PictureBox11.Location = New System.Drawing.Point(52, 423)
+        Me.PictureBox11.Location = New System.Drawing.Point(54, 425)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 143
+        Me.PictureBox11.TabIndex = 220
         Me.PictureBox11.TabStop = False
         '
         'PictureBox10
         '
         Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
         Me.PictureBox10.InitialImage = Nothing
-        Me.PictureBox10.Location = New System.Drawing.Point(52, 391)
+        Me.PictureBox10.Location = New System.Drawing.Point(54, 393)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 142
+        Me.PictureBox10.TabIndex = 219
         Me.PictureBox10.TabStop = False
         '
         'PictureBox9
         '
         Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
         Me.PictureBox9.InitialImage = Nothing
-        Me.PictureBox9.Location = New System.Drawing.Point(51, 359)
+        Me.PictureBox9.Location = New System.Drawing.Point(53, 361)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(425, 3)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 141
+        Me.PictureBox9.TabIndex = 218
         Me.PictureBox9.TabStop = False
         '
         'PictureBox8
         '
         Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
         Me.PictureBox8.InitialImage = Nothing
-        Me.PictureBox8.Location = New System.Drawing.Point(30, 301)
+        Me.PictureBox8.Location = New System.Drawing.Point(32, 303)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 140
+        Me.PictureBox8.TabIndex = 217
         Me.PictureBox8.TabStop = False
         '
         'PictureBox7
         '
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.InitialImage = Nothing
-        Me.PictureBox7.Location = New System.Drawing.Point(30, 266)
+        Me.PictureBox7.Location = New System.Drawing.Point(32, 268)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 139
+        Me.PictureBox7.TabIndex = 216
         Me.PictureBox7.TabStop = False
         '
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.InitialImage = Nothing
-        Me.PictureBox6.Location = New System.Drawing.Point(30, 237)
+        Me.PictureBox6.Location = New System.Drawing.Point(32, 239)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 138
+        Me.PictureBox6.TabIndex = 215
         Me.PictureBox6.TabStop = False
         '
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.InitialImage = Nothing
-        Me.PictureBox5.Location = New System.Drawing.Point(30, 203)
+        Me.PictureBox5.Location = New System.Drawing.Point(32, 205)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 137
+        Me.PictureBox5.TabIndex = 214
         Me.PictureBox5.TabStop = False
         '
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.InitialImage = Nothing
-        Me.PictureBox4.Location = New System.Drawing.Point(30, 168)
+        Me.PictureBox4.Location = New System.Drawing.Point(32, 170)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 136
+        Me.PictureBox4.TabIndex = 213
         Me.PictureBox4.TabStop = False
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.InitialImage = Nothing
-        Me.PictureBox3.Location = New System.Drawing.Point(30, 135)
+        Me.PictureBox3.Location = New System.Drawing.Point(32, 137)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 135
+        Me.PictureBox3.TabIndex = 212
         Me.PictureBox3.TabStop = False
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.InitialImage = Nothing
-        Me.PictureBox2.Location = New System.Drawing.Point(30, 100)
+        Me.PictureBox2.Location = New System.Drawing.Point(32, 102)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 134
+        Me.PictureBox2.TabIndex = 211
         Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.InitialImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(30, 62)
+        Me.PictureBox1.Location = New System.Drawing.Point(32, 64)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(449, 3)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 133
+        Me.PictureBox1.TabIndex = 210
         Me.PictureBox1.TabStop = False
         '
         'Label56
@@ -355,549 +355,549 @@ Partial Class Form2
         Me.Label56.AutoSize = True
         Me.Label56.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label56.ForeColor = System.Drawing.Color.Red
-        Me.Label56.Location = New System.Drawing.Point(400, 623)
+        Me.Label56.Location = New System.Drawing.Point(402, 625)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(40, 33)
-        Me.Label56.TabIndex = 132
+        Me.Label56.TabIndex = 209
         Me.Label56.Text = "SP"
         '
         'Label47
         '
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(178, 584)
+        Me.Label47.Location = New System.Drawing.Point(180, 586)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(0, 23)
-        Me.Label47.TabIndex = 131
+        Me.Label47.TabIndex = 208
         '
         'Label48
         '
         Me.Label48.AutoSize = True
         Me.Label48.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(178, 556)
+        Me.Label48.Location = New System.Drawing.Point(180, 558)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(0, 23)
-        Me.Label48.TabIndex = 130
+        Me.Label48.TabIndex = 207
         '
         'Label49
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(178, 526)
+        Me.Label49.Location = New System.Drawing.Point(180, 528)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(0, 23)
-        Me.Label49.TabIndex = 129
+        Me.Label49.TabIndex = 206
         '
         'Label50
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(178, 495)
+        Me.Label50.Location = New System.Drawing.Point(180, 497)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(0, 23)
-        Me.Label50.TabIndex = 128
+        Me.Label50.TabIndex = 205
         '
         'Label51
         '
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(178, 463)
+        Me.Label51.Location = New System.Drawing.Point(180, 465)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(0, 23)
-        Me.Label51.TabIndex = 127
+        Me.Label51.TabIndex = 204
         '
         'Label52
         '
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(178, 431)
+        Me.Label52.Location = New System.Drawing.Point(180, 433)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(0, 23)
-        Me.Label52.TabIndex = 126
+        Me.Label52.TabIndex = 203
         '
         'Label53
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(178, 397)
+        Me.Label53.Location = New System.Drawing.Point(180, 399)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(0, 23)
-        Me.Label53.TabIndex = 125
+        Me.Label53.TabIndex = 202
         '
         'Label54
         '
         Me.Label54.AutoSize = True
         Me.Label54.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(178, 365)
+        Me.Label54.Location = New System.Drawing.Point(180, 367)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(0, 23)
-        Me.Label54.TabIndex = 124
+        Me.Label54.TabIndex = 201
         '
         'Label55
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(178, 333)
+        Me.Label55.Location = New System.Drawing.Point(180, 335)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(0, 23)
-        Me.Label55.TabIndex = 123
+        Me.Label55.TabIndex = 200
         '
         'Label46
         '
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(298, 623)
+        Me.Label46.Location = New System.Drawing.Point(300, 625)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(48, 33)
-        Me.Label46.TabIndex = 122
+        Me.Label46.TabIndex = 199
         Me.Label46.Text = "0.0"
         '
         'Label45
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Segoe Print", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(176, 623)
+        Me.Label45.Location = New System.Drawing.Point(178, 625)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(64, 33)
-        Me.Label45.TabIndex = 121
+        Me.Label45.TabIndex = 198
         Me.Label45.Text = "Total"
         '
         'Label44
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(444, 333)
+        Me.Label44.Location = New System.Drawing.Point(446, 335)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(33, 23)
-        Me.Label44.TabIndex = 120
+        Me.Label44.TabIndex = 197
         Me.Label44.Text = "0.0"
         '
         'Label36
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(444, 584)
+        Me.Label36.Location = New System.Drawing.Point(446, 586)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(33, 23)
-        Me.Label36.TabIndex = 119
+        Me.Label36.TabIndex = 196
         Me.Label36.Text = "0.0"
         '
         'Label37
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(444, 556)
+        Me.Label37.Location = New System.Drawing.Point(446, 558)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(33, 23)
-        Me.Label37.TabIndex = 118
+        Me.Label37.TabIndex = 195
         Me.Label37.Text = "0.0"
         '
         'Label38
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(444, 526)
+        Me.Label38.Location = New System.Drawing.Point(446, 528)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(33, 23)
-        Me.Label38.TabIndex = 117
+        Me.Label38.TabIndex = 194
         Me.Label38.Text = "0.0"
         '
         'Label39
         '
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(444, 495)
+        Me.Label39.Location = New System.Drawing.Point(446, 497)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(33, 23)
-        Me.Label39.TabIndex = 116
+        Me.Label39.TabIndex = 193
         Me.Label39.Text = "0.0"
         '
         'Label40
         '
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(444, 463)
+        Me.Label40.Location = New System.Drawing.Point(446, 465)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(33, 23)
-        Me.Label40.TabIndex = 115
+        Me.Label40.TabIndex = 192
         Me.Label40.Text = "0.0"
         '
         'Label41
         '
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(444, 431)
+        Me.Label41.Location = New System.Drawing.Point(446, 433)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(33, 23)
-        Me.Label41.TabIndex = 114
+        Me.Label41.TabIndex = 191
         Me.Label41.Text = "0.0"
         '
         'Label42
         '
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(444, 397)
+        Me.Label42.Location = New System.Drawing.Point(446, 399)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(33, 23)
-        Me.Label42.TabIndex = 113
+        Me.Label42.TabIndex = 190
         Me.Label42.Text = "0.0"
         '
         'Label43
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(444, 365)
+        Me.Label43.Location = New System.Drawing.Point(446, 367)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(33, 23)
-        Me.Label43.TabIndex = 112
+        Me.Label43.TabIndex = 189
         Me.Label43.Text = "0.0"
         '
         'Label35
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(444, 272)
+        Me.Label35.Location = New System.Drawing.Point(446, 274)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(33, 23)
-        Me.Label35.TabIndex = 111
+        Me.Label35.TabIndex = 188
         Me.Label35.Text = "0.0"
         '
         'Label34
         '
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(151, 272)
+        Me.Label34.Location = New System.Drawing.Point(153, 274)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(0, 23)
-        Me.Label34.TabIndex = 110
+        Me.Label34.TabIndex = 187
         '
         'Label33
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(8, 301)
+        Me.Label33.Location = New System.Drawing.Point(10, 303)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(56, 26)
-        Me.Label33.TabIndex = 109
+        Me.Label33.TabIndex = 186
         Me.Label33.Text = "Other"
         '
         'Label32
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(48, 584)
+        Me.Label32.Location = New System.Drawing.Point(50, 586)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(95, 23)
-        Me.Label32.TabIndex = 108
+        Me.Label32.TabIndex = 185
         Me.Label32.Text = "Card Reader"
         '
         'Label31
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(47, 556)
+        Me.Label31.Location = New System.Drawing.Point(49, 558)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(65, 23)
-        Me.Label31.TabIndex = 107
+        Me.Label31.TabIndex = 184
         Me.Label31.Text = "Scanner"
         '
         'Label30
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(47, 526)
+        Me.Label30.Location = New System.Drawing.Point(49, 528)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(73, 23)
-        Me.Label30.TabIndex = 106
+        Me.Label30.TabIndex = 183
         Me.Label30.Text = "Bluetooth"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(47, 495)
+        Me.Label29.Location = New System.Drawing.Point(49, 497)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(62, 23)
-        Me.Label29.TabIndex = 105
+        Me.Label29.TabIndex = 182
         Me.Label29.Text = "Camera"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(47, 463)
+        Me.Label28.Location = New System.Drawing.Point(49, 465)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(59, 23)
-        Me.Label28.TabIndex = 104
+        Me.Label28.TabIndex = 181
         Me.Label28.Text = "Printer"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(47, 431)
+        Me.Label27.Location = New System.Drawing.Point(49, 433)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(69, 23)
-        Me.Label27.TabIndex = 103
+        Me.Label27.TabIndex = 180
         Me.Label27.Text = "Speakers"
         '
         'Label26
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(47, 397)
+        Me.Label26.Location = New System.Drawing.Point(49, 399)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(81, 23)
-        Me.Label26.TabIndex = 102
+        Me.Label26.TabIndex = 179
         Me.Label26.Text = "Mouse Pad"
         '
         'Label25
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(47, 365)
+        Me.Label25.Location = New System.Drawing.Point(49, 367)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(50, 23)
-        Me.Label25.TabIndex = 101
+        Me.Label25.TabIndex = 178
         Me.Label25.Text = "Mouse"
         '
         'Label24
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(48, 333)
+        Me.Label24.Location = New System.Drawing.Point(50, 335)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(76, 23)
-        Me.Label24.TabIndex = 100
-        Me.Label24.Text = "KeyBoard"
+        Me.Label24.TabIndex = 177
+        Me.Label24.Text = "Keyboard"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(8, 270)
+        Me.Label23.Location = New System.Drawing.Point(10, 272)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(120, 26)
-        Me.Label23.TabIndex = 99
-        Me.Label23.Text = "Optical Driver"
+        Me.Label23.TabIndex = 176
+        Me.Label23.Text = "Optical Drive"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(444, 239)
+        Me.Label22.Location = New System.Drawing.Point(446, 241)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(33, 23)
-        Me.Label22.TabIndex = 98
+        Me.Label22.TabIndex = 175
         Me.Label22.Text = "0.0"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(151, 239)
+        Me.Label21.Location = New System.Drawing.Point(153, 241)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(0, 23)
-        Me.Label21.TabIndex = 97
+        Me.Label21.TabIndex = 174
         '
         'Label20
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(444, 209)
+        Me.Label20.Location = New System.Drawing.Point(446, 211)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(33, 23)
-        Me.Label20.TabIndex = 96
+        Me.Label20.TabIndex = 173
         Me.Label20.Text = "0.0"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(444, 175)
+        Me.Label19.Location = New System.Drawing.Point(446, 177)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(33, 23)
-        Me.Label19.TabIndex = 95
+        Me.Label19.TabIndex = 172
         Me.Label19.Text = "0.0"
         '
         'Label18
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(151, 209)
+        Me.Label18.Location = New System.Drawing.Point(153, 211)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(0, 23)
-        Me.Label18.TabIndex = 94
+        Me.Label18.TabIndex = 171
         '
         'Label17
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(444, 141)
+        Me.Label17.Location = New System.Drawing.Point(446, 143)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(33, 23)
-        Me.Label17.TabIndex = 93
+        Me.Label17.TabIndex = 170
         Me.Label17.Text = "0.0"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(151, 175)
+        Me.Label16.Location = New System.Drawing.Point(153, 177)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(0, 23)
-        Me.Label16.TabIndex = 92
+        Me.Label16.TabIndex = 169
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(151, 141)
+        Me.Label15.Location = New System.Drawing.Point(153, 143)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(0, 23)
-        Me.Label15.TabIndex = 91
+        Me.Label15.TabIndex = 168
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(444, 106)
+        Me.Label14.Location = New System.Drawing.Point(446, 108)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(33, 23)
-        Me.Label14.TabIndex = 90
+        Me.Label14.TabIndex = 167
         Me.Label14.Text = "0.0"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(151, 106)
+        Me.Label13.Location = New System.Drawing.Point(153, 108)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(0, 23)
-        Me.Label13.TabIndex = 89
+        Me.Label13.TabIndex = 166
         '
         'Label12
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(444, 72)
+        Me.Label12.Location = New System.Drawing.Point(446, 74)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(33, 23)
-        Me.Label12.TabIndex = 88
+        Me.Label12.TabIndex = 165
         Me.Label12.Text = "0.0"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(151, 72)
+        Me.Label11.Location = New System.Drawing.Point(153, 74)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(0, 23)
-        Me.Label11.TabIndex = 87
+        Me.Label11.TabIndex = 164
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(444, 23)
+        Me.Label10.Location = New System.Drawing.Point(446, 25)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(33, 23)
-        Me.Label10.TabIndex = 86
+        Me.Label10.TabIndex = 163
         Me.Label10.Text = "0.0"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(151, 35)
+        Me.Label9.Location = New System.Drawing.Point(153, 37)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(0, 23)
-        Me.Label9.TabIndex = 85
+        Me.Label9.TabIndex = 162
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(151, 9)
+        Me.Label8.Location = New System.Drawing.Point(153, 11)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(0, 23)
-        Me.Label8.TabIndex = 84
+        Me.Label8.TabIndex = 161
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(8, 237)
+        Me.Label7.Location = New System.Drawing.Point(10, 239)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(71, 26)
-        Me.Label7.TabIndex = 83
+        Me.Label7.TabIndex = 160
         Me.Label7.Text = "Monitor"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(8, 207)
+        Me.Label6.Location = New System.Drawing.Point(10, 209)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(45, 26)
-        Me.Label6.TabIndex = 82
+        Me.Label6.TabIndex = 159
         Me.Label6.Text = "Case"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(8, 173)
+        Me.Label5.Location = New System.Drawing.Point(10, 175)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(115, 26)
-        Me.Label5.TabIndex = 81
-        Me.Label5.Text = "Graphic Card"
+        Me.Label5.TabIndex = 158
+        Me.Label5.Text = "Graphics Card"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(8, 139)
+        Me.Label4.Location = New System.Drawing.Point(10, 141)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(88, 26)
-        Me.Label4.TabIndex = 80
+        Me.Label4.TabIndex = 157
         Me.Label4.Text = "Hard Disk"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(8, 104)
+        Me.Label3.Location = New System.Drawing.Point(10, 106)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(74, 26)
-        Me.Label3.TabIndex = 79
+        Me.Label3.TabIndex = 156
         Me.Label3.Text = "Memory"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(8, 70)
+        Me.Label2.Location = New System.Drawing.Point(10, 72)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(118, 26)
-        Me.Label2.TabIndex = 78
-        Me.Label2.Text = "Mother Board"
+        Me.Label2.TabIndex = 155
+        Me.Label2.Text = "Motherboard"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe Print", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(8, 21)
+        Me.Label1.Location = New System.Drawing.Point(10, 23)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(83, 26)
-        Me.Label1.TabIndex = 77
+        Me.Label1.TabIndex = 154
         Me.Label1.Text = "Processor"
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(540, 668)
+        Me.ClientSize = New System.Drawing.Size(544, 672)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox20)
         Me.Controls.Add(Me.PictureBox19)
@@ -1006,81 +1006,82 @@ Partial Class Form2
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents PictureBox20 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox19 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox18 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox17 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox16 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox14 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox13 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox12 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox11 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox10 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox9 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label56 As System.Windows.Forms.Label
-    Friend WithEvents Label47 As System.Windows.Forms.Label
-    Friend WithEvents Label48 As System.Windows.Forms.Label
-    Friend WithEvents Label49 As System.Windows.Forms.Label
-    Friend WithEvents Label50 As System.Windows.Forms.Label
-    Friend WithEvents Label51 As System.Windows.Forms.Label
-    Friend WithEvents Label52 As System.Windows.Forms.Label
-    Friend WithEvents Label53 As System.Windows.Forms.Label
-    Friend WithEvents Label54 As System.Windows.Forms.Label
-    Friend WithEvents Label55 As System.Windows.Forms.Label
-    Friend WithEvents Label46 As System.Windows.Forms.Label
-    Friend WithEvents Label45 As System.Windows.Forms.Label
-    Friend WithEvents Label44 As System.Windows.Forms.Label
-    Friend WithEvents Label36 As System.Windows.Forms.Label
-    Friend WithEvents Label37 As System.Windows.Forms.Label
-    Friend WithEvents Label38 As System.Windows.Forms.Label
-    Friend WithEvents Label39 As System.Windows.Forms.Label
-    Friend WithEvents Label40 As System.Windows.Forms.Label
-    Friend WithEvents Label41 As System.Windows.Forms.Label
-    Friend WithEvents Label42 As System.Windows.Forms.Label
-    Friend WithEvents Label43 As System.Windows.Forms.Label
-    Friend WithEvents Label35 As System.Windows.Forms.Label
-    Friend WithEvents Label34 As System.Windows.Forms.Label
-    Friend WithEvents Label33 As System.Windows.Forms.Label
-    Friend WithEvents Label32 As System.Windows.Forms.Label
-    Friend WithEvents Label31 As System.Windows.Forms.Label
-    Friend WithEvents Label30 As System.Windows.Forms.Label
-    Friend WithEvents Label29 As System.Windows.Forms.Label
-    Friend WithEvents Label28 As System.Windows.Forms.Label
-    Friend WithEvents Label27 As System.Windows.Forms.Label
-    Friend WithEvents Label26 As System.Windows.Forms.Label
-    Friend WithEvents Label25 As System.Windows.Forms.Label
-    Friend WithEvents Label24 As System.Windows.Forms.Label
-    Friend WithEvents Label23 As System.Windows.Forms.Label
-    Friend WithEvents Label22 As System.Windows.Forms.Label
-    Friend WithEvents Label21 As System.Windows.Forms.Label
-    Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents Label19 As System.Windows.Forms.Label
-    Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents Label17 As System.Windows.Forms.Label
-    Friend WithEvents Label16 As System.Windows.Forms.Label
-    Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents Label14 As System.Windows.Forms.Label
-    Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents Label12 As System.Windows.Forms.Label
-    Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+
+    Friend WithEvents Button1 As Button
+    Friend WithEvents PictureBox20 As PictureBox
+    Friend WithEvents PictureBox19 As PictureBox
+    Friend WithEvents PictureBox18 As PictureBox
+    Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents PictureBox16 As PictureBox
+    Friend WithEvents PictureBox15 As PictureBox
+    Friend WithEvents PictureBox14 As PictureBox
+    Friend WithEvents PictureBox13 As PictureBox
+    Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents PictureBox11 As PictureBox
+    Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Label50 As Label
+    Friend WithEvents Label51 As Label
+    Friend WithEvents Label52 As Label
+    Friend WithEvents Label53 As Label
+    Friend WithEvents Label54 As Label
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
 End Class
