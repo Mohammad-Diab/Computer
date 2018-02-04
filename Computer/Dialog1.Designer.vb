@@ -58,17 +58,7 @@ Partial Class Dialog1
         Me.Cancel_Button.Size = New System.Drawing.Size(67, 23)
         Me.Cancel_Button.TabIndex = 6
         Me.Cancel_Button.Text = "No"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Computer.My.Resources.Resources.ALERT
-        Me.PictureBox1.Location = New System.Drawing.Point(16, 19)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(67, 69)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 8
-        Me.PictureBox1.TabStop = False
-        '
+
         'Dialog1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)

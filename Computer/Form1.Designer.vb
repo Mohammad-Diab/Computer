@@ -149,7 +149,7 @@ Partial Class Form1
         '
         'NewToolStripMenuItem
         '
-        Me.NewToolStripMenuItem.Image = Global.Computer.My.Resources.Resources._new
+
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
         Me.NewToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
         Me.NewToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
@@ -162,7 +162,7 @@ Partial Class Form1
         '
         'ExitToolStripMenuItem
         '
-        Me.ExitToolStripMenuItem.Image = Global.Computer.My.Resources.Resources.xit
+
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
@@ -177,7 +177,7 @@ Partial Class Form1
         '
         'AboutToolStripMenuItem
         '
-        Me.AboutToolStripMenuItem.Image = Global.Computer.My.Resources.Resources.info
+
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutToolStripMenuItem.Text = "About"
@@ -194,7 +194,7 @@ Partial Class Form1
         '
         'ToolStripButton1
         '
-        Me.ToolStripButton1.Image = Global.Computer.My.Resources.Resources._new
+
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(72, 22)
@@ -202,7 +202,7 @@ Partial Class Form1
         '
         'ToolStripButton2
         '
-        Me.ToolStripButton2.Image = Global.Computer.My.Resources.Resources.info
+
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(60, 22)

@@ -116,7 +116,6 @@ Partial Class LoginForm1
         '
         'LogoPictureBox
         '
-        Me.LogoPictureBox.Image = Global.Computer.My.Resources.Resources.LOCK
         Me.LogoPictureBox.Location = New System.Drawing.Point(12, 35)
         Me.LogoPictureBox.Name = "LogoPictureBox"
         Me.LogoPictureBox.Size = New System.Drawing.Size(128, 128)

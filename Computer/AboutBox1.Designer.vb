@@ -62,14 +62,10 @@ Partial Class AboutBox1
         '
         'PictureBox1
         '
-        Me.PictureBox1.ErrorImage = Nothing
-        Me.PictureBox1.Image = Global.Computer.My.Resources.Resources.Untitled__6_
-        Me.PictureBox1.InitialImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(227, 216)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.Size = New System.Drawing.Size(251, 225)
+        Me.PictureBox1.TabIndex = 8
         Me.PictureBox1.TabStop = False
         '
         'AboutBox1
