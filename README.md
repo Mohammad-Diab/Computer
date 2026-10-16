@@ -23,7 +23,9 @@ The program has three lines, all in this repository:
 | [v1.0.1](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.0.1) | 2011-10-11 | Parts left as None count as zero in the total |
 | [v1.1.0](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.1.0) | 2011-10-15 | Reworked forms, no database settings |
 | [v1.1.1](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.1.1) | 2012-09-03 | A picture in the About box |
+| [v1.5.0-beta.1](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.5.0-beta.1) | 2012-09-04 | Pre-release: an earlier build of v1.5.0 (its source was not saved) |
 | [v1.5.0](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.5.0) | 2012-09-04 | Computer 1 v1.5: new Main, Result, Login, Confirm and About windows, in Arabic |
+| [v1.5.1-beta.1](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.5.1-beta.1) | 2012-09-04 | Pre-release: an earlier build of v1.5.1 (its source was not saved) |
 | [v1.5.1](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.5.1) | 2012-09-25 | New login and icon, fixed keyboard and mouse lists |
 | [v1.6.0-beta.1](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.6.0-beta.1) | 2012-09-25 | First WPF draft |
 | [v1.6.0](https://github.com/Mohammad-Diab/Computer/releases/tag/v1.6.0) | 2012-09-27 | WPF version with intro video, price, part picker and help windows |
